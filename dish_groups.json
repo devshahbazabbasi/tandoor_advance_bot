@@ -1,0 +1,5826 @@
+[
+  {
+    "_id": "FAM-biryani",
+    "dish_family": "biryani",
+    "item_ids": [
+      "MENU001",
+      "MENU002"
+    ],
+    "items": [
+      {
+        "_id": "MENU001",
+        "name": "Chicken Biryani",
+        "base_price_pkr": 420,
+        "variants": [
+          {
+            "id": "VAR-MENU001-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 420,
+            "shown_in_menu": true,
+            "approved_for_orders": true
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          },
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "chicken biryani",
+            "language": "English"
+          },
+          {
+            "phrase": "chikkan biryani",
+            "language": "Roman Urdu"
+          },
+          {
+            "phrase": "chicken biryani plate",
+            "language": "Roman Urdu"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": true,
+            "price_pkr": 420,
+            "snapshot_max_portions": 142.0
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": true,
+            "price_pkr": 420,
+            "snapshot_max_portions": 250.0
+          }
+        ],
+        "recipe": [
+          {
+            "ingredient_id": "ING002",
+            "ingredient": "Chicken bone-in",
+            "qty_per_portion": 0.25,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING007",
+            "ingredient": "Rice basmati",
+            "qty_per_portion": 0.18,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING022",
+            "ingredient": "Onions",
+            "qty_per_portion": 0.05,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING060",
+            "ingredient": "Biryani masala",
+            "qty_per_portion": 0.02,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING031",
+            "ingredient": "Cooking oil",
+            "qty_per_portion": 0.025,
+            "unit": "L"
+          }
+        ],
+        "prep_time_min": 35,
+        "dietary_hint": "Non-Vegetarian"
+      },
+      {
+        "_id": "MENU002",
+        "name": "Beef Biryani",
+        "base_price_pkr": 520,
+        "variants": [
+          {
+            "id": "VAR-MENU002-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 520,
+            "shown_in_menu": true,
+            "approved_for_orders": true
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          },
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "beef biryani",
+            "language": "English"
+          },
+          {
+            "phrase": "beef biryani plate",
+            "language": "Roman Urdu"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": true,
+            "price_pkr": 520,
+            "snapshot_max_portions": 81.0
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": true,
+            "price_pkr": 520,
+            "snapshot_max_portions": 115.0
+          }
+        ],
+        "recipe": [
+          {
+            "ingredient_id": "ING003",
+            "ingredient": "Beef boneless",
+            "qty_per_portion": 0.23,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING007",
+            "ingredient": "Rice basmati",
+            "qty_per_portion": 0.18,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING022",
+            "ingredient": "Onions",
+            "qty_per_portion": 0.05,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING060",
+            "ingredient": "Biryani masala",
+            "qty_per_portion": 0.02,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING031",
+            "ingredient": "Cooking oil",
+            "qty_per_portion": 0.025,
+            "unit": "L"
+          }
+        ],
+        "prep_time_min": 35,
+        "dietary_hint": "Non-Vegetarian"
+      }
+    ],
+    "embedding_text": "Biryani dishes at Urban Tandoor. Chicken Biryani - Pakistani category. Traditional Pakistani-style preparation. Non-Vegetarian. Price Rs 420. Sizes: Regular / Standard Rs 420. Prep time 35 min. Ingredients: Chicken bone-in, Rice basmati, Onions, Biryani masala, Cooking oil. Add-ons: Extra Naan (Rs 80), Extra Chicken (Rs 250). Available at: PECHS, Gulshan-e-Iqbal. Also called: chicken biryani, chikkan biryani, chicken biryani plate. Beef Biryani - Pakistani category. Traditional Pakistani-style preparation. Non-Vegetarian. Price Rs 520. Sizes: Regular / Standard Rs 520. Prep time 35 min. Ingredients: Beef boneless, Rice basmati, Onions, Biryani masala, Cooking oil. Add-ons: Extra Naan (Rs 80), Extra Chicken (Rs 250). Available at: PECHS, Gulshan-e-Iqbal. Also called: beef biryani, beef biryani plate."
+  },
+  {
+    "_id": "FAM-boti",
+    "dish_family": "boti",
+    "item_ids": [
+      "MENU008",
+      "MENU051",
+      "MENU052"
+    ],
+    "items": [
+      {
+        "_id": "MENU008",
+        "name": "Chicken Malai Boti",
+        "base_price_pkr": 790,
+        "variants": [
+          {
+            "id": "VAR-MENU008-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 790,
+            "shown_in_menu": true,
+            "approved_for_orders": true
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD002",
+            "name": "Extra Sauce",
+            "price_pkr": 70,
+            "selectable": true
+          },
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "chicken malai boti",
+            "language": "English"
+          },
+          {
+            "phrase": "chikkan malai boti",
+            "language": "Roman Urdu"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": true,
+            "price_pkr": 790,
+            "snapshot_max_portions": 162.0
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": true,
+            "price_pkr": 790,
+            "snapshot_max_portions": 230.0
+          }
+        ],
+        "recipe": [
+          {
+            "ingredient_id": "ING001",
+            "ingredient": "Chicken boneless",
+            "qty_per_portion": 0.25,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING016",
+            "ingredient": "Cream",
+            "qty_per_portion": 0.05,
+            "unit": "L"
+          },
+          {
+            "ingredient_id": "ING020",
+            "ingredient": "Yogurt",
+            "qty_per_portion": 0.05,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING039",
+            "ingredient": "BBQ marinade",
+            "qty_per_portion": 0.06,
+            "unit": "kg"
+          }
+        ],
+        "prep_time_min": 28,
+        "dietary_hint": "Non-Vegetarian"
+      },
+      {
+        "_id": "MENU051",
+        "name": "Chicken Bihari Boti",
+        "base_price_pkr": 950,
+        "variants": [
+          {
+            "id": "VAR-MENU051-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 950,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD002",
+            "name": "Extra Sauce",
+            "price_pkr": 70,
+            "selectable": true
+          },
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "chicken bihari boti",
+            "language": "English"
+          },
+          {
+            "phrase": "chikkan bihari boti",
+            "language": "Roman Urdu"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 950,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 950,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 28,
+        "dietary_hint": "Non-Vegetarian"
+      },
+      {
+        "_id": "MENU052",
+        "name": "Beef Bihari Boti",
+        "base_price_pkr": 1000,
+        "variants": [
+          {
+            "id": "VAR-MENU052-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 1000,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD002",
+            "name": "Extra Sauce",
+            "price_pkr": 70,
+            "selectable": true
+          },
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "beef bihari boti",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 1000,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 1000,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 28,
+        "dietary_hint": "Non-Vegetarian"
+      }
+    ],
+    "embedding_text": "Boti dishes at Urban Tandoor. Chicken Malai Boti - BBQ category. Marinated and grilled specialty. Non-Vegetarian. Price Rs 790. Sizes: Regular / Standard Rs 790. Prep time 28 min. Ingredients: Chicken boneless, Cream, Yogurt, BBQ marinade. Add-ons: Extra Sauce (Rs 70), Extra Naan (Rs 80), Drink Upgrade (Rs 130). Available at: PECHS, Gulshan-e-Iqbal. Also called: chicken malai boti, chikkan malai boti. Chicken Bihari Boti - BBQ category. Marinated and grilled specialty. Non-Vegetarian. Price Rs 950. Sizes: Regular / Standard Rs 950. Prep time 28 min. Ingredients: not listed. Add-ons: Extra Sauce (Rs 70), Extra Naan (Rs 80), Drink Upgrade (Rs 130). Available at: none. Also called: chicken bihari boti, chikkan bihari boti. Beef Bihari Boti - BBQ category. Marinated and grilled specialty. Non-Vegetarian. Price Rs 1000. Sizes: Regular / Standard Rs 1000. Prep time 28 min. Ingredients: not listed. Add-ons: Extra Sauce (Rs 70), Extra Naan (Rs 80), Drink Upgrade (Rs 130). Available at: none. Also called: beef bihari boti."
+  },
+  {
+    "_id": "FAM-brownie",
+    "dish_family": "brownie",
+    "item_ids": [
+      "MENU026"
+    ],
+    "items": [
+      {
+        "_id": "MENU026",
+        "name": "Chocolate Brownie",
+        "base_price_pkr": 420,
+        "variants": [
+          {
+            "id": "VAR-MENU026-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 420,
+            "shown_in_menu": true,
+            "approved_for_orders": true
+          }
+        ],
+        "addons": [],
+        "aliases": [
+          {
+            "phrase": "chocolate brownie",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": true,
+            "price_pkr": 420,
+            "snapshot_max_portions": 44.0
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": true,
+            "price_pkr": 420,
+            "snapshot_max_portions": 58.0
+          }
+        ],
+        "recipe": [
+          {
+            "ingredient_id": "ING057",
+            "ingredient": "Brownie pieces",
+            "qty_per_portion": 1.0,
+            "unit": "pcs"
+          },
+          {
+            "ingredient_id": "ING056",
+            "ingredient": "Chocolate syrup",
+            "qty_per_portion": 0.025,
+            "unit": "L"
+          }
+        ],
+        "prep_time_min": 10,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      }
+    ],
+    "embedding_text": "Brownie dishes at Urban Tandoor. Chocolate Brownie - Desserts category. Sweet dessert selection. Vegetarian candidate — verify recipe. Price Rs 420. Sizes: Regular / Standard Rs 420. Prep time 10 min. Ingredients: Brownie pieces, Chocolate syrup. Add-ons: none. Available at: PECHS, Gulshan-e-Iqbal. Also called: chocolate brownie."
+  },
+  {
+    "_id": "FAM-burger",
+    "dish_family": "burger",
+    "item_ids": [
+      "MENU011",
+      "MENU012",
+      "MENU059",
+      "MENU060",
+      "MENU061",
+      "MENU069"
+    ],
+    "items": [
+      {
+        "_id": "MENU011",
+        "name": "Zinger Burger",
+        "base_price_pkr": 690,
+        "variants": [
+          {
+            "id": "VAR-MENU011-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 690,
+            "shown_in_menu": true,
+            "approved_for_orders": true
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD001",
+            "name": "Extra Cheese",
+            "price_pkr": 160,
+            "selectable": true
+          },
+          {
+            "id": "ADD002",
+            "name": "Extra Sauce",
+            "price_pkr": 70,
+            "selectable": true
+          },
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          },
+          {
+            "id": "ADD004",
+            "name": "Extra Beef Patty",
+            "price_pkr": 320,
+            "selectable": true
+          },
+          {
+            "id": "ADD005",
+            "name": "French Fries Side",
+            "price_pkr": 230,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "zinger burger",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": true,
+            "price_pkr": 690,
+            "snapshot_max_portions": 67.0
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": true,
+            "price_pkr": 690,
+            "snapshot_max_portions": 82.0
+          }
+        ],
+        "recipe": [
+          {
+            "ingredient_id": "ING001",
+            "ingredient": "Chicken boneless",
+            "qty_per_portion": 0.16,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING011",
+            "ingredient": "Burger buns",
+            "qty_per_portion": 1.0,
+            "unit": "pcs"
+          },
+          {
+            "ingredient_id": "ING008",
+            "ingredient": "All-purpose flour",
+            "qty_per_portion": 0.07,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING040",
+            "ingredient": "Mayonnaise",
+            "qty_per_portion": 0.03,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING027",
+            "ingredient": "Lettuce",
+            "qty_per_portion": 0.02,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING031",
+            "ingredient": "Cooking oil",
+            "qty_per_portion": 0.04,
+            "unit": "L"
+          }
+        ],
+        "prep_time_min": 15,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      },
+      {
+        "_id": "MENU012",
+        "name": "Beef Burger",
+        "base_price_pkr": 790,
+        "variants": [
+          {
+            "id": "VAR-MENU012-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 790,
+            "shown_in_menu": true,
+            "approved_for_orders": true
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD001",
+            "name": "Extra Cheese",
+            "price_pkr": 160,
+            "selectable": true
+          },
+          {
+            "id": "ADD002",
+            "name": "Extra Sauce",
+            "price_pkr": 70,
+            "selectable": true
+          },
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          },
+          {
+            "id": "ADD004",
+            "name": "Extra Beef Patty",
+            "price_pkr": 320,
+            "selectable": true
+          },
+          {
+            "id": "ADD005",
+            "name": "French Fries Side",
+            "price_pkr": 230,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "beef burger",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": true,
+            "price_pkr": 790,
+            "snapshot_max_portions": 67.0
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": true,
+            "price_pkr": 790,
+            "snapshot_max_portions": 82.0
+          }
+        ],
+        "recipe": [
+          {
+            "ingredient_id": "ING006",
+            "ingredient": "Beef mince",
+            "qty_per_portion": 0.17,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING011",
+            "ingredient": "Burger buns",
+            "qty_per_portion": 1.0,
+            "unit": "pcs"
+          },
+          {
+            "ingredient_id": "ING018",
+            "ingredient": "Cheddar cheese",
+            "qty_per_portion": 0.025,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING040",
+            "ingredient": "Mayonnaise",
+            "qty_per_portion": 0.02,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING027",
+            "ingredient": "Lettuce",
+            "qty_per_portion": 0.02,
+            "unit": "kg"
+          }
+        ],
+        "prep_time_min": 15,
+        "dietary_hint": "Non-Vegetarian"
+      },
+      {
+        "_id": "MENU059",
+        "name": "Grilled Chicken Burger",
+        "base_price_pkr": 540,
+        "variants": [
+          {
+            "id": "VAR-MENU059-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 540,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD001",
+            "name": "Extra Cheese",
+            "price_pkr": 160,
+            "selectable": true
+          },
+          {
+            "id": "ADD002",
+            "name": "Extra Sauce",
+            "price_pkr": 70,
+            "selectable": true
+          },
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          },
+          {
+            "id": "ADD004",
+            "name": "Extra Beef Patty",
+            "price_pkr": 320,
+            "selectable": true
+          },
+          {
+            "id": "ADD005",
+            "name": "French Fries Side",
+            "price_pkr": 230,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "grilled chicken burger",
+            "language": "English"
+          },
+          {
+            "phrase": "grilled chikkan burger",
+            "language": "Roman Urdu"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 540,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 540,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 15,
+        "dietary_hint": "Non-Vegetarian"
+      },
+      {
+        "_id": "MENU060",
+        "name": "Double Zinger Burger",
+        "base_price_pkr": 790,
+        "variants": [
+          {
+            "id": "VAR-MENU060-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 790,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD001",
+            "name": "Extra Cheese",
+            "price_pkr": 160,
+            "selectable": true
+          },
+          {
+            "id": "ADD002",
+            "name": "Extra Sauce",
+            "price_pkr": 70,
+            "selectable": true
+          },
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          },
+          {
+            "id": "ADD004",
+            "name": "Extra Beef Patty",
+            "price_pkr": 320,
+            "selectable": true
+          },
+          {
+            "id": "ADD005",
+            "name": "French Fries Side",
+            "price_pkr": 230,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "double zinger burger",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 790,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 790,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 15,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      },
+      {
+        "_id": "MENU061",
+        "name": "Cheese Beef Burger",
+        "base_price_pkr": 490,
+        "variants": [
+          {
+            "id": "VAR-MENU061-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 490,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD001",
+            "name": "Extra Cheese",
+            "price_pkr": 160,
+            "selectable": true
+          },
+          {
+            "id": "ADD002",
+            "name": "Extra Sauce",
+            "price_pkr": 70,
+            "selectable": true
+          },
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          },
+          {
+            "id": "ADD004",
+            "name": "Extra Beef Patty",
+            "price_pkr": 320,
+            "selectable": true
+          },
+          {
+            "id": "ADD005",
+            "name": "French Fries Side",
+            "price_pkr": 230,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "cheese beef burger",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 490,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 490,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 15,
+        "dietary_hint": "Non-Vegetarian"
+      },
+      {
+        "_id": "MENU069",
+        "name": "Fish Burger",
+        "base_price_pkr": 690,
+        "variants": [
+          {
+            "id": "VAR-MENU069-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 690,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD001",
+            "name": "Extra Cheese",
+            "price_pkr": 160,
+            "selectable": true
+          },
+          {
+            "id": "ADD002",
+            "name": "Extra Sauce",
+            "price_pkr": 70,
+            "selectable": true
+          },
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          },
+          {
+            "id": "ADD004",
+            "name": "Extra Beef Patty",
+            "price_pkr": 320,
+            "selectable": true
+          },
+          {
+            "id": "ADD005",
+            "name": "French Fries Side",
+            "price_pkr": 230,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "fish burger",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 690,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 690,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 15,
+        "dietary_hint": "Non-Vegetarian"
+      }
+    ],
+    "embedding_text": "Burger dishes at Urban Tandoor. Zinger Burger - Fast Food category. Freshly assembled quick-service selection. Vegetarian candidate — verify recipe. Price Rs 690. Sizes: Regular / Standard Rs 690. Prep time 15 min. Ingredients: Chicken boneless, Burger buns, All-purpose flour, Mayonnaise, Lettuce, Cooking oil. Add-ons: Extra Cheese (Rs 160), Extra Sauce (Rs 70), Extra Chicken (Rs 250), Extra Beef Patty (Rs 320), French Fries Side (Rs 230), Drink Upgrade (Rs 130). Available at: PECHS, Gulshan-e-Iqbal. Also called: zinger burger. Beef Burger - Fast Food category. Freshly assembled quick-service selection. Non-Vegetarian. Price Rs 790. Sizes: Regular / Standard Rs 790. Prep time 15 min. Ingredients: Beef mince, Burger buns, Cheddar cheese, Mayonnaise, Lettuce. Add-ons: Extra Cheese (Rs 160), Extra Sauce (Rs 70), Extra Chicken (Rs 250), Extra Beef Patty (Rs 320), French Fries Side (Rs 230), Drink Upgrade (Rs 130). Available at: PECHS, Gulshan-e-Iqbal. Also called: beef burger. Grilled Chicken Burger - Fast Food category. Freshly assembled quick-service selection. Non-Vegetarian. Price Rs 540. Sizes: Regular / Standard Rs 540. Prep time 15 min. Ingredients: not listed. Add-ons: Extra Cheese (Rs 160), Extra Sauce (Rs 70), Extra Chicken (Rs 250), Extra Beef Patty (Rs 320), French Fries Side (Rs 230), Drink Upgrade (Rs 130). Available at: none. Also called: grilled chicken burger, grilled chikkan burger. Double Zinger Burger - Fast Food category. Freshly assembled quick-service selection. Vegetarian candidate — verify recipe. Price Rs 790. Sizes: Regular / Standard Rs 790. Prep time 15 min. Ingredients: not listed. Add-ons: Extra Cheese (Rs 160), Extra Sauce (Rs 70), Extra Chicken (Rs 250), Extra Beef Patty (Rs 320), French Fries Side (Rs 230), Drink Upgrade (Rs 130). Available at: none. Also called: double zinger burger. Cheese Beef Burger - Fast Food category. Freshly assembled quick-service selection. Non-Vegetarian. Price Rs 490. Sizes: Regular / Standard Rs 490. Prep time 15 min. Ingredients: not listed. Add-ons: Extra Cheese (Rs 160), Extra Sauce (Rs 70), Extra Chicken (Rs 250), Extra Beef Patty (Rs 320), French Fries Side (Rs 230), Drink Upgrade (Rs 130). Available at: none. Also called: cheese beef burger. Fish Burger - Fast Food category. Freshly assembled quick-service selection. Non-Vegetarian. Price Rs 690. Sizes: Regular / Standard Rs 690. Prep time 15 min. Ingredients: not listed. Add-ons: Extra Cheese (Rs 160), Extra Sauce (Rs 70), Extra Chicken (Rs 250), Extra Beef Patty (Rs 320), French Fries Side (Rs 230), Drink Upgrade (Rs 130). Available at: none. Also called: fish burger."
+  },
+  {
+    "_id": "FAM-chai",
+    "dish_family": "chai",
+    "item_ids": [
+      "MENU095"
+    ],
+    "items": [
+      {
+        "_id": "MENU095",
+        "name": "Masala Chai",
+        "base_price_pkr": 170,
+        "variants": [
+          {
+            "id": "VAR-MENU095-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 170,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD007",
+            "name": "Extra Egg",
+            "price_pkr": 100,
+            "selectable": true
+          },
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "masala chai",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 170,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 170,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 15,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      }
+    ],
+    "embedding_text": "Chai dishes at Urban Tandoor. Masala Chai - Breakfast category. Prepared-to-order breakfast item. Vegetarian candidate — verify recipe. Price Rs 170. Sizes: Regular / Standard Rs 170. Prep time 15 min. Ingredients: not listed. Add-ons: Extra Egg (Rs 100), Extra Naan (Rs 80). Available at: none. Also called: masala chai."
+  },
+  {
+    "_id": "FAM-chow-mein",
+    "dish_family": "chow mein",
+    "item_ids": [
+      "MENU019",
+      "MENU081",
+      "MENU082"
+    ],
+    "items": [
+      {
+        "_id": "MENU019",
+        "name": "Chicken Chow Mein",
+        "base_price_pkr": 820,
+        "variants": [
+          {
+            "id": "VAR-MENU019-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 820,
+            "shown_in_menu": true,
+            "approved_for_orders": true
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "chicken chow mein",
+            "language": "English"
+          },
+          {
+            "phrase": "chikkan chow mein",
+            "language": "Roman Urdu"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": true,
+            "price_pkr": 820,
+            "snapshot_max_portions": 107.0
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": true,
+            "price_pkr": 820,
+            "snapshot_max_portions": 163.0
+          }
+        ],
+        "recipe": [
+          {
+            "ingredient_id": "ING046",
+            "ingredient": "Noodles",
+            "qty_per_portion": 0.17,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING001",
+            "ingredient": "Chicken boneless",
+            "qty_per_portion": 0.14,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING024",
+            "ingredient": "Capsicum",
+            "qty_per_portion": 0.07,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING042",
+            "ingredient": "Soy sauce",
+            "qty_per_portion": 0.025,
+            "unit": "L"
+          },
+          {
+            "ingredient_id": "ING031",
+            "ingredient": "Cooking oil",
+            "qty_per_portion": 0.02,
+            "unit": "L"
+          }
+        ],
+        "prep_time_min": 22,
+        "dietary_hint": "Non-Vegetarian"
+      },
+      {
+        "_id": "MENU081",
+        "name": "Beef Chow Mein",
+        "base_price_pkr": 950,
+        "variants": [
+          {
+            "id": "VAR-MENU081-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 950,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "beef chow mein",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 950,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 950,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 22,
+        "dietary_hint": "Non-Vegetarian"
+      },
+      {
+        "_id": "MENU082",
+        "name": "Vegetable Chow Mein",
+        "base_price_pkr": 1000,
+        "variants": [
+          {
+            "id": "VAR-MENU082-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 1000,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "vegetable chow mein",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 1000,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 1000,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 22,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      }
+    ],
+    "embedding_text": "Chow Mein dishes at Urban Tandoor. Chicken Chow Mein - Chinese & Continental category. Freshly prepared Asian/continental selection. Non-Vegetarian. Price Rs 820. Sizes: Regular / Standard Rs 820. Prep time 22 min. Ingredients: Noodles, Chicken boneless, Capsicum, Soy sauce, Cooking oil. Add-ons: Extra Chicken (Rs 250), Drink Upgrade (Rs 130). Available at: PECHS, Gulshan-e-Iqbal. Also called: chicken chow mein, chikkan chow mein. Beef Chow Mein - Chinese & Continental category. Freshly prepared Asian/continental selection. Non-Vegetarian. Price Rs 950. Sizes: Regular / Standard Rs 950. Prep time 22 min. Ingredients: not listed. Add-ons: Extra Chicken (Rs 250), Drink Upgrade (Rs 130). Available at: none. Also called: beef chow mein. Vegetable Chow Mein - Chinese & Continental category. Freshly prepared Asian/continental selection. Vegetarian candidate — verify recipe. Price Rs 1000. Sizes: Regular / Standard Rs 1000. Prep time 22 min. Ingredients: not listed. Add-ons: Extra Chicken (Rs 250), Drink Upgrade (Rs 130). Available at: none. Also called: vegetable chow mein."
+  },
+  {
+    "_id": "FAM-coffee",
+    "dish_family": "coffee",
+    "item_ids": [
+      "MENU113",
+      "MENU115"
+    ],
+    "items": [
+      {
+        "_id": "MENU113",
+        "name": "Coffee",
+        "base_price_pkr": 230,
+        "variants": [
+          {
+            "id": "VAR-MENU113-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 230,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [],
+        "aliases": [
+          {
+            "phrase": "coffee",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 230,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 230,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 5,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      },
+      {
+        "_id": "MENU115",
+        "name": "Cold Coffee",
+        "base_price_pkr": 200,
+        "variants": [
+          {
+            "id": "VAR-MENU115-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 200,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [],
+        "aliases": [
+          {
+            "phrase": "cold coffee",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 200,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 200,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 5,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      }
+    ],
+    "embedding_text": "Coffee dishes at Urban Tandoor. Coffee - Beverages category. Fresh or packaged beverage. Vegetarian candidate — verify recipe. Price Rs 230. Sizes: Regular / Standard Rs 230. Prep time 5 min. Ingredients: not listed. Add-ons: none. Available at: none. Also called: coffee. Cold Coffee - Beverages category. Fresh or packaged beverage. Vegetarian candidate — verify recipe. Price Rs 200. Sizes: Regular / Standard Rs 200. Prep time 5 min. Ingredients: not listed. Add-ons: none. Available at: none. Also called: cold coffee."
+  },
+  {
+    "_id": "FAM-fried-rice",
+    "dish_family": "fried rice",
+    "item_ids": [
+      "MENU020",
+      "MENU079",
+      "MENU080"
+    ],
+    "items": [
+      {
+        "_id": "MENU020",
+        "name": "Chicken Fried Rice",
+        "base_price_pkr": 720,
+        "variants": [
+          {
+            "id": "VAR-MENU020-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 720,
+            "shown_in_menu": true,
+            "approved_for_orders": true
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "chicken fried rice",
+            "language": "English"
+          },
+          {
+            "phrase": "chikkan fried rice",
+            "language": "Roman Urdu"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": true,
+            "price_pkr": 720,
+            "snapshot_max_portions": 223.0
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": true,
+            "price_pkr": 720,
+            "snapshot_max_portions": 289.0
+          }
+        ],
+        "recipe": [
+          {
+            "ingredient_id": "ING007",
+            "ingredient": "Rice basmati",
+            "qty_per_portion": 0.18,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING001",
+            "ingredient": "Chicken boneless",
+            "qty_per_portion": 0.13,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING014",
+            "ingredient": "Eggs",
+            "qty_per_portion": 1.0,
+            "unit": "pcs"
+          },
+          {
+            "ingredient_id": "ING042",
+            "ingredient": "Soy sauce",
+            "qty_per_portion": 0.02,
+            "unit": "L"
+          },
+          {
+            "ingredient_id": "ING031",
+            "ingredient": "Cooking oil",
+            "qty_per_portion": 0.02,
+            "unit": "L"
+          }
+        ],
+        "prep_time_min": 22,
+        "dietary_hint": "Non-Vegetarian"
+      },
+      {
+        "_id": "MENU079",
+        "name": "Egg Fried Rice",
+        "base_price_pkr": 750,
+        "variants": [
+          {
+            "id": "VAR-MENU079-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 750,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "egg fried rice",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 750,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 750,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 22,
+        "dietary_hint": "Ovo-Vegetarian"
+      },
+      {
+        "_id": "MENU080",
+        "name": "Vegetable Fried Rice",
+        "base_price_pkr": 850,
+        "variants": [
+          {
+            "id": "VAR-MENU080-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 850,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "vegetable fried rice",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 850,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 850,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 22,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      }
+    ],
+    "embedding_text": "Fried Rice dishes at Urban Tandoor. Chicken Fried Rice - Chinese & Continental category. Freshly prepared Asian/continental selection. Non-Vegetarian. Price Rs 720. Sizes: Regular / Standard Rs 720. Prep time 22 min. Ingredients: Rice basmati, Chicken boneless, Eggs, Soy sauce, Cooking oil. Add-ons: Extra Chicken (Rs 250), Drink Upgrade (Rs 130). Available at: PECHS, Gulshan-e-Iqbal. Also called: chicken fried rice, chikkan fried rice. Egg Fried Rice - Chinese & Continental category. Freshly prepared Asian/continental selection. Ovo-Vegetarian. Price Rs 750. Sizes: Regular / Standard Rs 750. Prep time 22 min. Ingredients: not listed. Add-ons: Extra Chicken (Rs 250), Drink Upgrade (Rs 130). Available at: none. Also called: egg fried rice. Vegetable Fried Rice - Chinese & Continental category. Freshly prepared Asian/continental selection. Vegetarian candidate — verify recipe. Price Rs 850. Sizes: Regular / Standard Rs 850. Prep time 22 min. Ingredients: not listed. Add-ons: Extra Chicken (Rs 250), Drink Upgrade (Rs 130). Available at: none. Also called: vegetable fried rice."
+  },
+  {
+    "_id": "FAM-fries",
+    "dish_family": "fries",
+    "item_ids": [
+      "MENU014",
+      "MENU065",
+      "MENU066",
+      "MENU070"
+    ],
+    "items": [
+      {
+        "_id": "MENU014",
+        "name": "Loaded Fries",
+        "base_price_pkr": 570,
+        "variants": [
+          {
+            "id": "VAR-MENU014-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 570,
+            "shown_in_menu": true,
+            "approved_for_orders": true
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD001",
+            "name": "Extra Cheese",
+            "price_pkr": 160,
+            "selectable": true
+          },
+          {
+            "id": "ADD002",
+            "name": "Extra Sauce",
+            "price_pkr": 70,
+            "selectable": true
+          },
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          },
+          {
+            "id": "ADD004",
+            "name": "Extra Beef Patty",
+            "price_pkr": 320,
+            "selectable": true
+          },
+          {
+            "id": "ADD005",
+            "name": "French Fries Side",
+            "price_pkr": 230,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "loaded fries",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": true,
+            "price_pkr": 570,
+            "snapshot_max_portions": 226.0
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": true,
+            "price_pkr": 570,
+            "snapshot_max_portions": 15.0
+          }
+        ],
+        "recipe": [
+          {
+            "ingredient_id": "ING023",
+            "ingredient": "Potatoes",
+            "qty_per_portion": 0.24,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING017",
+            "ingredient": "Mozzarella",
+            "qty_per_portion": 0.06,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING040",
+            "ingredient": "Mayonnaise",
+            "qty_per_portion": 0.03,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING041",
+            "ingredient": "Ketchup",
+            "qty_per_portion": 0.025,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING031",
+            "ingredient": "Cooking oil",
+            "qty_per_portion": 0.04,
+            "unit": "L"
+          }
+        ],
+        "prep_time_min": 15,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      },
+      {
+        "_id": "MENU065",
+        "name": "Plain French Fries",
+        "base_price_pkr": 290,
+        "variants": [
+          {
+            "id": "VAR-MENU065-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 290,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD001",
+            "name": "Extra Cheese",
+            "price_pkr": 160,
+            "selectable": true
+          },
+          {
+            "id": "ADD002",
+            "name": "Extra Sauce",
+            "price_pkr": 70,
+            "selectable": true
+          },
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          },
+          {
+            "id": "ADD004",
+            "name": "Extra Beef Patty",
+            "price_pkr": 320,
+            "selectable": true
+          },
+          {
+            "id": "ADD005",
+            "name": "French Fries Side",
+            "price_pkr": 230,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "plain french fries",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 290,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 290,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 15,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      },
+      {
+        "_id": "MENU066",
+        "name": "Masala Fries",
+        "base_price_pkr": 790,
+        "variants": [
+          {
+            "id": "VAR-MENU066-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 790,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD001",
+            "name": "Extra Cheese",
+            "price_pkr": 160,
+            "selectable": true
+          },
+          {
+            "id": "ADD002",
+            "name": "Extra Sauce",
+            "price_pkr": 70,
+            "selectable": true
+          },
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          },
+          {
+            "id": "ADD004",
+            "name": "Extra Beef Patty",
+            "price_pkr": 320,
+            "selectable": true
+          },
+          {
+            "id": "ADD005",
+            "name": "French Fries Side",
+            "price_pkr": 230,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "masala fries",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 790,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 790,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 15,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      },
+      {
+        "_id": "MENU070",
+        "name": "Chicken Cheese Loaded Fries",
+        "base_price_pkr": 740,
+        "variants": [
+          {
+            "id": "VAR-MENU070-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 740,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD001",
+            "name": "Extra Cheese",
+            "price_pkr": 160,
+            "selectable": true
+          },
+          {
+            "id": "ADD002",
+            "name": "Extra Sauce",
+            "price_pkr": 70,
+            "selectable": true
+          },
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          },
+          {
+            "id": "ADD004",
+            "name": "Extra Beef Patty",
+            "price_pkr": 320,
+            "selectable": true
+          },
+          {
+            "id": "ADD005",
+            "name": "French Fries Side",
+            "price_pkr": 230,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "chicken cheese loaded fries",
+            "language": "English"
+          },
+          {
+            "phrase": "chikkan cheese loaded fries",
+            "language": "Roman Urdu"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 740,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 740,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 15,
+        "dietary_hint": "Non-Vegetarian"
+      }
+    ],
+    "embedding_text": "Fries dishes at Urban Tandoor. Loaded Fries - Fast Food category. Freshly assembled quick-service selection. Vegetarian candidate — verify recipe. Price Rs 570. Sizes: Regular / Standard Rs 570. Prep time 15 min. Ingredients: Potatoes, Mozzarella, Mayonnaise, Ketchup, Cooking oil. Add-ons: Extra Cheese (Rs 160), Extra Sauce (Rs 70), Extra Chicken (Rs 250), Extra Beef Patty (Rs 320), French Fries Side (Rs 230), Drink Upgrade (Rs 130). Available at: PECHS, Gulshan-e-Iqbal. Also called: loaded fries. Plain French Fries - Fast Food category. Freshly assembled quick-service selection. Vegetarian candidate — verify recipe. Price Rs 290. Sizes: Regular / Standard Rs 290. Prep time 15 min. Ingredients: not listed. Add-ons: Extra Cheese (Rs 160), Extra Sauce (Rs 70), Extra Chicken (Rs 250), Extra Beef Patty (Rs 320), French Fries Side (Rs 230), Drink Upgrade (Rs 130). Available at: none. Also called: plain french fries. Masala Fries - Fast Food category. Freshly assembled quick-service selection. Vegetarian candidate — verify recipe. Price Rs 790. Sizes: Regular / Standard Rs 790. Prep time 15 min. Ingredients: not listed. Add-ons: Extra Cheese (Rs 160), Extra Sauce (Rs 70), Extra Chicken (Rs 250), Extra Beef Patty (Rs 320), French Fries Side (Rs 230), Drink Upgrade (Rs 130). Available at: none. Also called: masala fries. Chicken Cheese Loaded Fries - Fast Food category. Freshly assembled quick-service selection. Non-Vegetarian. Price Rs 740. Sizes: Regular / Standard Rs 740. Prep time 15 min. Ingredients: not listed. Add-ons: Extra Cheese (Rs 160), Extra Sauce (Rs 70), Extra Chicken (Rs 250), Extra Beef Patty (Rs 320), French Fries Side (Rs 230), Drink Upgrade (Rs 130). Available at: none. Also called: chicken cheese loaded fries, chikkan cheese loaded fries."
+  },
+  {
+    "_id": "FAM-haleem",
+    "dish_family": "haleem",
+    "item_ids": [
+      "MENU043"
+    ],
+    "items": [
+      {
+        "_id": "MENU043",
+        "name": "Chicken Haleem",
+        "base_price_pkr": 850,
+        "variants": [
+          {
+            "id": "VAR-MENU043-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 850,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          },
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "chicken haleem",
+            "language": "English"
+          },
+          {
+            "phrase": "chikkan haleem",
+            "language": "Roman Urdu"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 850,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 850,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 35,
+        "dietary_hint": "Non-Vegetarian"
+      }
+    ],
+    "embedding_text": "Haleem dishes at Urban Tandoor. Chicken Haleem - Pakistani category. Traditional Pakistani-style preparation. Non-Vegetarian. Price Rs 850. Sizes: Regular / Standard Rs 850. Prep time 35 min. Ingredients: not listed. Add-ons: Extra Naan (Rs 80), Extra Chicken (Rs 250). Available at: none. Also called: chicken haleem, chikkan haleem."
+  },
+  {
+    "_id": "FAM-handi",
+    "dish_family": "handi",
+    "item_ids": [
+      "MENU005",
+      "MENU038"
+    ],
+    "items": [
+      {
+        "_id": "MENU005",
+        "name": "Chicken Handi",
+        "base_price_pkr": 1850,
+        "variants": [
+          {
+            "id": "VAR-MENU005-STD",
+            "name": "Half",
+            "price_pkr": 1850,
+            "shown_in_menu": true,
+            "approved_for_orders": true
+          },
+          {
+            "id": "VAR-MENU005-FULL",
+            "name": "Full",
+            "price_pkr": 3330,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          },
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "chicken handi",
+            "language": "English"
+          },
+          {
+            "phrase": "chikkan handi",
+            "language": "Roman Urdu"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": true,
+            "price_pkr": 1850,
+            "snapshot_max_portions": 144.0
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": true,
+            "price_pkr": 1850,
+            "snapshot_max_portions": 205.0
+          }
+        ],
+        "recipe": [
+          {
+            "ingredient_id": "ING001",
+            "ingredient": "Chicken boneless",
+            "qty_per_portion": 0.28,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING016",
+            "ingredient": "Cream",
+            "qty_per_portion": 0.08,
+            "unit": "L"
+          },
+          {
+            "ingredient_id": "ING020",
+            "ingredient": "Yogurt",
+            "qty_per_portion": 0.07,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING022",
+            "ingredient": "Onions",
+            "qty_per_portion": 0.05,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING031",
+            "ingredient": "Cooking oil",
+            "qty_per_portion": 0.03,
+            "unit": "L"
+          }
+        ],
+        "prep_time_min": 47,
+        "dietary_hint": "Non-Vegetarian"
+      },
+      {
+        "_id": "MENU038",
+        "name": "Chicken Tikka Handi",
+        "base_price_pkr": 950,
+        "variants": [
+          {
+            "id": "VAR-MENU038-STD",
+            "name": "Half",
+            "price_pkr": 950,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          },
+          {
+            "id": "VAR-MENU038-FULL",
+            "name": "Full",
+            "price_pkr": 1710,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          },
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "chicken tikka handi",
+            "language": "English"
+          },
+          {
+            "phrase": "chikkan tikka handi",
+            "language": "Roman Urdu"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 950,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 950,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 47,
+        "dietary_hint": "Non-Vegetarian"
+      }
+    ],
+    "embedding_text": "Handi dishes at Urban Tandoor. Chicken Handi - Pakistani category. Traditional Pakistani-style preparation. Non-Vegetarian. Price Rs 1850. Sizes: Half Rs 1850; Full Rs 3330. Prep time 47 min. Ingredients: Chicken boneless, Cream, Yogurt, Onions, Cooking oil. Add-ons: Extra Naan (Rs 80), Extra Chicken (Rs 250). Available at: PECHS, Gulshan-e-Iqbal. Also called: chicken handi, chikkan handi. Chicken Tikka Handi - Pakistani category. Traditional Pakistani-style preparation. Non-Vegetarian. Price Rs 950. Sizes: Half Rs 950; Full Rs 1710. Prep time 47 min. Ingredients: not listed. Add-ons: Extra Naan (Rs 80), Extra Chicken (Rs 250). Available at: none. Also called: chicken tikka handi, chikkan tikka handi."
+  },
+  {
+    "_id": "FAM-ice-cream",
+    "dish_family": "ice cream",
+    "item_ids": [
+      "MENU027",
+      "MENU102",
+      "MENU103"
+    ],
+    "items": [
+      {
+        "_id": "MENU027",
+        "name": "Brownie with Ice Cream",
+        "base_price_pkr": 550,
+        "variants": [
+          {
+            "id": "VAR-MENU027-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 550,
+            "shown_in_menu": true,
+            "approved_for_orders": true
+          }
+        ],
+        "addons": [],
+        "aliases": [
+          {
+            "phrase": "brownie with ice cream",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": true,
+            "price_pkr": 550,
+            "snapshot_max_portions": 44.0
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": true,
+            "price_pkr": 550,
+            "snapshot_max_portions": 58.0
+          }
+        ],
+        "recipe": [
+          {
+            "ingredient_id": "ING057",
+            "ingredient": "Brownie pieces",
+            "qty_per_portion": 1.0,
+            "unit": "pcs"
+          },
+          {
+            "ingredient_id": "ING058",
+            "ingredient": "Ice cream scoops",
+            "qty_per_portion": 2.0,
+            "unit": "pcs"
+          },
+          {
+            "ingredient_id": "ING056",
+            "ingredient": "Chocolate syrup",
+            "qty_per_portion": 0.035,
+            "unit": "L"
+          }
+        ],
+        "prep_time_min": 10,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      },
+      {
+        "_id": "MENU102",
+        "name": "Vanilla Ice Cream",
+        "base_price_pkr": 310,
+        "variants": [
+          {
+            "id": "VAR-MENU102-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 310,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [],
+        "aliases": [
+          {
+            "phrase": "vanilla ice cream",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 310,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 310,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 10,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      },
+      {
+        "_id": "MENU103",
+        "name": "Chocolate Ice Cream",
+        "base_price_pkr": 330,
+        "variants": [
+          {
+            "id": "VAR-MENU103-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 330,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [],
+        "aliases": [
+          {
+            "phrase": "chocolate ice cream",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 330,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 330,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 10,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      }
+    ],
+    "embedding_text": "Ice Cream dishes at Urban Tandoor. Brownie with Ice Cream - Desserts category. Sweet dessert selection. Vegetarian candidate — verify recipe. Price Rs 550. Sizes: Regular / Standard Rs 550. Prep time 10 min. Ingredients: Brownie pieces, Ice cream scoops, Chocolate syrup. Add-ons: none. Available at: PECHS, Gulshan-e-Iqbal. Also called: brownie with ice cream. Vanilla Ice Cream - Desserts category. Sweet dessert selection. Vegetarian candidate — verify recipe. Price Rs 310. Sizes: Regular / Standard Rs 310. Prep time 10 min. Ingredients: not listed. Add-ons: none. Available at: none. Also called: vanilla ice cream. Chocolate Ice Cream - Desserts category. Sweet dessert selection. Vegetarian candidate — verify recipe. Price Rs 330. Sizes: Regular / Standard Rs 330. Prep time 10 min. Ingredients: not listed. Add-ons: none. Available at: none. Also called: chocolate ice cream."
+  },
+  {
+    "_id": "FAM-juice",
+    "dish_family": "juice",
+    "item_ids": [
+      "MENU111",
+      "MENU112"
+    ],
+    "items": [
+      {
+        "_id": "MENU111",
+        "name": "Fresh Orange Juice",
+        "base_price_pkr": 400,
+        "variants": [
+          {
+            "id": "VAR-MENU111-STD",
+            "name": "Regular",
+            "price_pkr": 400,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          },
+          {
+            "id": "VAR-MENU111-LRG",
+            "name": "Large",
+            "price_pkr": 560,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [],
+        "aliases": [
+          {
+            "phrase": "fresh orange juice",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 400,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 400,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 5,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      },
+      {
+        "_id": "MENU112",
+        "name": "Fresh Apple Juice",
+        "base_price_pkr": 450,
+        "variants": [
+          {
+            "id": "VAR-MENU112-STD",
+            "name": "Regular",
+            "price_pkr": 450,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          },
+          {
+            "id": "VAR-MENU112-LRG",
+            "name": "Large",
+            "price_pkr": 630,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [],
+        "aliases": [
+          {
+            "phrase": "fresh apple juice",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 450,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 450,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 5,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      }
+    ],
+    "embedding_text": "Juice dishes at Urban Tandoor. Fresh Orange Juice - Beverages category. Fresh or packaged beverage. Vegetarian candidate — verify recipe. Price Rs 400. Sizes: Regular Rs 400; Large Rs 560. Prep time 5 min. Ingredients: not listed. Add-ons: none. Available at: none. Also called: fresh orange juice. Fresh Apple Juice - Beverages category. Fresh or packaged beverage. Vegetarian candidate — verify recipe. Price Rs 450. Sizes: Regular Rs 450; Large Rs 630. Prep time 5 min. Ingredients: not listed. Add-ons: none. Available at: none. Also called: fresh apple juice."
+  },
+  {
+    "_id": "FAM-kabab",
+    "dish_family": "kabab",
+    "item_ids": [
+      "MENU009",
+      "MENU044",
+      "MENU049",
+      "MENU050",
+      "MENU058"
+    ],
+    "items": [
+      {
+        "_id": "MENU009",
+        "name": "Beef Seekh Kabab",
+        "base_price_pkr": 670,
+        "variants": [
+          {
+            "id": "VAR-MENU009-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 670,
+            "shown_in_menu": true,
+            "approved_for_orders": true
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD002",
+            "name": "Extra Sauce",
+            "price_pkr": 70,
+            "selectable": true
+          },
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "beef seekh kabab",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": true,
+            "price_pkr": 670,
+            "snapshot_max_portions": 82.0
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": true,
+            "price_pkr": 670,
+            "snapshot_max_portions": 104.0
+          }
+        ],
+        "recipe": [
+          {
+            "ingredient_id": "ING006",
+            "ingredient": "Beef mince",
+            "qty_per_portion": 0.25,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING022",
+            "ingredient": "Onions",
+            "qty_per_portion": 0.04,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING039",
+            "ingredient": "BBQ marinade",
+            "qty_per_portion": 0.04,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING029",
+            "ingredient": "Fresh coriander",
+            "qty_per_portion": 0.01,
+            "unit": "kg"
+          }
+        ],
+        "prep_time_min": 28,
+        "dietary_hint": "Non-Vegetarian"
+      },
+      {
+        "_id": "MENU044",
+        "name": "Chapli Kabab Platter",
+        "base_price_pkr": 950,
+        "variants": [
+          {
+            "id": "VAR-MENU044-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 950,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          },
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "chapli kabab platter",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 950,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 950,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 47,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      },
+      {
+        "_id": "MENU049",
+        "name": "Chicken Seekh Kabab",
+        "base_price_pkr": 750,
+        "variants": [
+          {
+            "id": "VAR-MENU049-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 750,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD002",
+            "name": "Extra Sauce",
+            "price_pkr": 70,
+            "selectable": true
+          },
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "chicken seekh kabab",
+            "language": "English"
+          },
+          {
+            "phrase": "chikkan seekh kabab",
+            "language": "Roman Urdu"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 750,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 750,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 28,
+        "dietary_hint": "Non-Vegetarian"
+      },
+      {
+        "_id": "MENU050",
+        "name": "Reshmi Kabab",
+        "base_price_pkr": 850,
+        "variants": [
+          {
+            "id": "VAR-MENU050-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 850,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD002",
+            "name": "Extra Sauce",
+            "price_pkr": 70,
+            "selectable": true
+          },
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "reshmi kabab",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 850,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 850,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 28,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      },
+      {
+        "_id": "MENU058",
+        "name": "Chicken Cheese Kabab",
+        "base_price_pkr": 1000,
+        "variants": [
+          {
+            "id": "VAR-MENU058-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 1000,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD002",
+            "name": "Extra Sauce",
+            "price_pkr": 70,
+            "selectable": true
+          },
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "chicken cheese kabab",
+            "language": "English"
+          },
+          {
+            "phrase": "chikkan cheese kabab",
+            "language": "Roman Urdu"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 1000,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 1000,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 28,
+        "dietary_hint": "Non-Vegetarian"
+      }
+    ],
+    "embedding_text": "Kabab dishes at Urban Tandoor. Beef Seekh Kabab - BBQ category. Marinated and grilled specialty. Non-Vegetarian. Price Rs 670. Sizes: Regular / Standard Rs 670. Prep time 28 min. Ingredients: Beef mince, Onions, BBQ marinade, Fresh coriander. Add-ons: Extra Sauce (Rs 70), Extra Naan (Rs 80), Drink Upgrade (Rs 130). Available at: PECHS, Gulshan-e-Iqbal. Also called: beef seekh kabab. Chapli Kabab Platter - Pakistani category. Traditional Pakistani-style preparation. Vegetarian candidate — verify recipe. Price Rs 950. Sizes: Regular / Standard Rs 950. Prep time 47 min. Ingredients: not listed. Add-ons: Extra Naan (Rs 80), Extra Chicken (Rs 250). Available at: none. Also called: chapli kabab platter. Chicken Seekh Kabab - BBQ category. Marinated and grilled specialty. Non-Vegetarian. Price Rs 750. Sizes: Regular / Standard Rs 750. Prep time 28 min. Ingredients: not listed. Add-ons: Extra Sauce (Rs 70), Extra Naan (Rs 80), Drink Upgrade (Rs 130). Available at: none. Also called: chicken seekh kabab, chikkan seekh kabab. Reshmi Kabab - BBQ category. Marinated and grilled specialty. Vegetarian candidate — verify recipe. Price Rs 850. Sizes: Regular / Standard Rs 850. Prep time 28 min. Ingredients: not listed. Add-ons: Extra Sauce (Rs 70), Extra Naan (Rs 80), Drink Upgrade (Rs 130). Available at: none. Also called: reshmi kabab. Chicken Cheese Kabab - BBQ category. Marinated and grilled specialty. Non-Vegetarian. Price Rs 1000. Sizes: Regular / Standard Rs 1000. Prep time 28 min. Ingredients: not listed. Add-ons: Extra Sauce (Rs 70), Extra Naan (Rs 80), Drink Upgrade (Rs 130). Available at: none. Also called: chicken cheese kabab, chikkan cheese kabab."
+  },
+  {
+    "_id": "FAM-karahi",
+    "dish_family": "karahi",
+    "item_ids": [
+      "MENU003",
+      "MENU004",
+      "MENU035",
+      "MENU036",
+      "MENU037"
+    ],
+    "items": [
+      {
+        "_id": "MENU003",
+        "name": "Chicken Karahi",
+        "base_price_pkr": 1750,
+        "variants": [
+          {
+            "id": "VAR-MENU003-STD",
+            "name": "Half",
+            "price_pkr": 1750,
+            "shown_in_menu": true,
+            "approved_for_orders": true
+          },
+          {
+            "id": "VAR-MENU003-FULL",
+            "name": "Full",
+            "price_pkr": 3150,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          },
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "chicken karahi",
+            "language": "English"
+          },
+          {
+            "phrase": "chikkan karahi",
+            "language": "Roman Urdu"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": true,
+            "price_pkr": 1750,
+            "snapshot_max_portions": 71.0
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": true,
+            "price_pkr": 1750,
+            "snapshot_max_portions": 125.0
+          }
+        ],
+        "recipe": [
+          {
+            "ingredient_id": "ING002",
+            "ingredient": "Chicken bone-in",
+            "qty_per_portion": 0.5,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING021",
+            "ingredient": "Tomatoes",
+            "qty_per_portion": 0.18,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING026",
+            "ingredient": "Ginger garlic paste",
+            "qty_per_portion": 0.025,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING031",
+            "ingredient": "Cooking oil",
+            "qty_per_portion": 0.04,
+            "unit": "L"
+          },
+          {
+            "ingredient_id": "ING034",
+            "ingredient": "Red chilli powder",
+            "qty_per_portion": 0.009,
+            "unit": "kg"
+          }
+        ],
+        "prep_time_min": 47,
+        "dietary_hint": "Non-Vegetarian"
+      },
+      {
+        "_id": "MENU004",
+        "name": "Mutton Karahi",
+        "base_price_pkr": 2950,
+        "variants": [
+          {
+            "id": "VAR-MENU004-STD",
+            "name": "Half",
+            "price_pkr": 2950,
+            "shown_in_menu": true,
+            "approved_for_orders": true
+          },
+          {
+            "id": "VAR-MENU004-FULL",
+            "name": "Full",
+            "price_pkr": 5310,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          },
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "mutton karahi",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": true,
+            "price_pkr": 2950,
+            "snapshot_max_portions": 6.0
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": true,
+            "price_pkr": 2950,
+            "snapshot_max_portions": 42.0
+          }
+        ],
+        "recipe": [
+          {
+            "ingredient_id": "ING004",
+            "ingredient": "Mutton",
+            "qty_per_portion": 0.5,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING021",
+            "ingredient": "Tomatoes",
+            "qty_per_portion": 0.18,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING026",
+            "ingredient": "Ginger garlic paste",
+            "qty_per_portion": 0.025,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING031",
+            "ingredient": "Cooking oil",
+            "qty_per_portion": 0.04,
+            "unit": "L"
+          },
+          {
+            "ingredient_id": "ING034",
+            "ingredient": "Red chilli powder",
+            "qty_per_portion": 0.009,
+            "unit": "kg"
+          }
+        ],
+        "prep_time_min": 47,
+        "dietary_hint": "Non-Vegetarian"
+      },
+      {
+        "_id": "MENU035",
+        "name": "Chicken White Karahi",
+        "base_price_pkr": 1950,
+        "variants": [
+          {
+            "id": "VAR-MENU035-STD",
+            "name": "Half",
+            "price_pkr": 1950,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          },
+          {
+            "id": "VAR-MENU035-FULL",
+            "name": "Full",
+            "price_pkr": 3510,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          },
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "chicken white karahi",
+            "language": "English"
+          },
+          {
+            "phrase": "chikkan white karahi",
+            "language": "Roman Urdu"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 1950,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 1950,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 47,
+        "dietary_hint": "Non-Vegetarian"
+      },
+      {
+        "_id": "MENU036",
+        "name": "Chicken Achari Karahi",
+        "base_price_pkr": 1150,
+        "variants": [
+          {
+            "id": "VAR-MENU036-STD",
+            "name": "Half",
+            "price_pkr": 1150,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          },
+          {
+            "id": "VAR-MENU036-FULL",
+            "name": "Full",
+            "price_pkr": 2070,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          },
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "chicken achari karahi",
+            "language": "English"
+          },
+          {
+            "phrase": "chikkan achari karahi",
+            "language": "Roman Urdu"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 1150,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 1150,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 47,
+        "dietary_hint": "Non-Vegetarian"
+      },
+      {
+        "_id": "MENU037",
+        "name": "Mutton White Karahi",
+        "base_price_pkr": 3250,
+        "variants": [
+          {
+            "id": "VAR-MENU037-STD",
+            "name": "Half",
+            "price_pkr": 3250,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          },
+          {
+            "id": "VAR-MENU037-FULL",
+            "name": "Full",
+            "price_pkr": 5850,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          },
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "mutton white karahi",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 3250,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 3250,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 47,
+        "dietary_hint": "Non-Vegetarian"
+      }
+    ],
+    "embedding_text": "Karahi dishes at Urban Tandoor. Chicken Karahi - Pakistani category. Traditional Pakistani-style preparation. Non-Vegetarian. Price Rs 1750. Sizes: Half Rs 1750; Full Rs 3150. Prep time 47 min. Ingredients: Chicken bone-in, Tomatoes, Ginger garlic paste, Cooking oil, Red chilli powder. Add-ons: Extra Naan (Rs 80), Extra Chicken (Rs 250). Available at: PECHS, Gulshan-e-Iqbal. Also called: chicken karahi, chikkan karahi. Mutton Karahi - Pakistani category. Traditional Pakistani-style preparation. Non-Vegetarian. Price Rs 2950. Sizes: Half Rs 2950; Full Rs 5310. Prep time 47 min. Ingredients: Mutton, Tomatoes, Ginger garlic paste, Cooking oil, Red chilli powder. Add-ons: Extra Naan (Rs 80), Extra Chicken (Rs 250). Available at: PECHS, Gulshan-e-Iqbal. Also called: mutton karahi. Chicken White Karahi - Pakistani category. Traditional Pakistani-style preparation. Non-Vegetarian. Price Rs 1950. Sizes: Half Rs 1950; Full Rs 3510. Prep time 47 min. Ingredients: not listed. Add-ons: Extra Naan (Rs 80), Extra Chicken (Rs 250). Available at: none. Also called: chicken white karahi, chikkan white karahi. Chicken Achari Karahi - Pakistani category. Traditional Pakistani-style preparation. Non-Vegetarian. Price Rs 1150. Sizes: Half Rs 1150; Full Rs 2070. Prep time 47 min. Ingredients: not listed. Add-ons: Extra Naan (Rs 80), Extra Chicken (Rs 250). Available at: none. Also called: chicken achari karahi, chikkan achari karahi. Mutton White Karahi - Pakistani category. Traditional Pakistani-style preparation. Non-Vegetarian. Price Rs 3250. Sizes: Half Rs 3250; Full Rs 5850. Prep time 47 min. Ingredients: not listed. Add-ons: Extra Naan (Rs 80), Extra Chicken (Rs 250). Available at: none. Also called: mutton white karahi."
+  },
+  {
+    "_id": "FAM-naan",
+    "dish_family": "naan",
+    "item_ids": [
+      "MENU045",
+      "MENU046",
+      "MENU047"
+    ],
+    "items": [
+      {
+        "_id": "MENU045",
+        "name": "Plain Naan",
+        "base_price_pkr": 80,
+        "variants": [
+          {
+            "id": "VAR-MENU045-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 80,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          },
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "plain naan",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 80,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 80,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 35,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      },
+      {
+        "_id": "MENU046",
+        "name": "Garlic Naan",
+        "base_price_pkr": 150,
+        "variants": [
+          {
+            "id": "VAR-MENU046-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 150,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          },
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "garlic naan",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 150,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 150,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 35,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      },
+      {
+        "_id": "MENU047",
+        "name": "Butter Naan",
+        "base_price_pkr": 120,
+        "variants": [
+          {
+            "id": "VAR-MENU047-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 120,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          },
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "butter naan",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 120,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 120,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 35,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      }
+    ],
+    "embedding_text": "Naan dishes at Urban Tandoor. Plain Naan - Pakistani category. Traditional Pakistani-style preparation. Vegetarian candidate — verify recipe. Price Rs 80. Sizes: Regular / Standard Rs 80. Prep time 35 min. Ingredients: not listed. Add-ons: Extra Naan (Rs 80), Extra Chicken (Rs 250). Available at: none. Also called: plain naan. Garlic Naan - Pakistani category. Traditional Pakistani-style preparation. Vegetarian candidate — verify recipe. Price Rs 150. Sizes: Regular / Standard Rs 150. Prep time 35 min. Ingredients: not listed. Add-ons: Extra Naan (Rs 80), Extra Chicken (Rs 250). Available at: none. Also called: garlic naan. Butter Naan - Pakistani category. Traditional Pakistani-style preparation. Vegetarian candidate — verify recipe. Price Rs 120. Sizes: Regular / Standard Rs 120. Prep time 35 min. Ingredients: not listed. Add-ons: Extra Naan (Rs 80), Extra Chicken (Rs 250). Available at: none. Also called: butter naan."
+  },
+  {
+    "_id": "FAM-nihari",
+    "dish_family": "nihari",
+    "item_ids": [
+      "MENU039"
+    ],
+    "items": [
+      {
+        "_id": "MENU039",
+        "name": "Beef Nihari",
+        "base_price_pkr": 1050,
+        "variants": [
+          {
+            "id": "VAR-MENU039-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 1050,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          },
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "beef nihari",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 1050,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 1050,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 35,
+        "dietary_hint": "Non-Vegetarian"
+      }
+    ],
+    "embedding_text": "Nihari dishes at Urban Tandoor. Beef Nihari - Pakistani category. Traditional Pakistani-style preparation. Non-Vegetarian. Price Rs 1050. Sizes: Regular / Standard Rs 1050. Prep time 35 min. Ingredients: not listed. Add-ons: Extra Naan (Rs 80), Extra Chicken (Rs 250). Available at: none. Also called: beef nihari."
+  },
+  {
+    "_id": "FAM-omelette",
+    "dish_family": "omelette",
+    "item_ids": [
+      "MENU091",
+      "MENU092"
+    ],
+    "items": [
+      {
+        "_id": "MENU091",
+        "name": "Omelette",
+        "base_price_pkr": 200,
+        "variants": [
+          {
+            "id": "VAR-MENU091-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 200,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD007",
+            "name": "Extra Egg",
+            "price_pkr": 100,
+            "selectable": true
+          },
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "omelette",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 200,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 200,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 15,
+        "dietary_hint": "Ovo-Vegetarian"
+      },
+      {
+        "_id": "MENU092",
+        "name": "Cheese Omelette",
+        "base_price_pkr": 300,
+        "variants": [
+          {
+            "id": "VAR-MENU092-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 300,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD007",
+            "name": "Extra Egg",
+            "price_pkr": 100,
+            "selectable": true
+          },
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "cheese omelette",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 300,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 300,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 15,
+        "dietary_hint": "Ovo-Vegetarian"
+      }
+    ],
+    "embedding_text": "Omelette dishes at Urban Tandoor. Omelette - Breakfast category. Prepared-to-order breakfast item. Ovo-Vegetarian. Price Rs 200. Sizes: Regular / Standard Rs 200. Prep time 15 min. Ingredients: not listed. Add-ons: Extra Egg (Rs 100), Extra Naan (Rs 80). Available at: none. Also called: omelette. Cheese Omelette - Breakfast category. Prepared-to-order breakfast item. Ovo-Vegetarian. Price Rs 300. Sizes: Regular / Standard Rs 300. Prep time 15 min. Ingredients: not listed. Add-ons: Extra Egg (Rs 100), Extra Naan (Rs 80). Available at: none. Also called: cheese omelette."
+  },
+  {
+    "_id": "FAM-paratha",
+    "dish_family": "paratha",
+    "item_ids": [
+      "MENU024",
+      "MENU089",
+      "MENU090"
+    ],
+    "items": [
+      {
+        "_id": "MENU024",
+        "name": "Anda Paratha",
+        "base_price_pkr": 290,
+        "variants": [
+          {
+            "id": "VAR-MENU024-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 290,
+            "shown_in_menu": true,
+            "approved_for_orders": true
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD007",
+            "name": "Extra Egg",
+            "price_pkr": 100,
+            "selectable": true
+          },
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "anda paratha",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": true,
+            "price_pkr": 290,
+            "snapshot_max_portions": 63.0
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": true,
+            "price_pkr": 290,
+            "snapshot_max_portions": 124.0
+          }
+        ],
+        "recipe": [
+          {
+            "ingredient_id": "ING014",
+            "ingredient": "Eggs",
+            "qty_per_portion": 2.0,
+            "unit": "pcs"
+          },
+          {
+            "ingredient_id": "ING013",
+            "ingredient": "Paratha dough",
+            "qty_per_portion": 1.0,
+            "unit": "pcs"
+          },
+          {
+            "ingredient_id": "ING031",
+            "ingredient": "Cooking oil",
+            "qty_per_portion": 0.015,
+            "unit": "L"
+          }
+        ],
+        "prep_time_min": 15,
+        "dietary_hint": "Ovo-Vegetarian"
+      },
+      {
+        "_id": "MENU089",
+        "name": "Plain Paratha",
+        "base_price_pkr": 150,
+        "variants": [
+          {
+            "id": "VAR-MENU089-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 150,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD007",
+            "name": "Extra Egg",
+            "price_pkr": 100,
+            "selectable": true
+          },
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "plain paratha",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 150,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 150,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 15,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      },
+      {
+        "_id": "MENU090",
+        "name": "Aloo Paratha",
+        "base_price_pkr": 500,
+        "variants": [
+          {
+            "id": "VAR-MENU090-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 500,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD007",
+            "name": "Extra Egg",
+            "price_pkr": 100,
+            "selectable": true
+          },
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "aloo paratha",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 500,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 500,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 15,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      }
+    ],
+    "embedding_text": "Paratha dishes at Urban Tandoor. Anda Paratha - Breakfast category. Prepared-to-order breakfast item. Ovo-Vegetarian. Price Rs 290. Sizes: Regular / Standard Rs 290. Prep time 15 min. Ingredients: Eggs, Paratha dough, Cooking oil. Add-ons: Extra Egg (Rs 100), Extra Naan (Rs 80). Available at: PECHS, Gulshan-e-Iqbal. Also called: anda paratha. Plain Paratha - Breakfast category. Prepared-to-order breakfast item. Vegetarian candidate — verify recipe. Price Rs 150. Sizes: Regular / Standard Rs 150. Prep time 15 min. Ingredients: not listed. Add-ons: Extra Egg (Rs 100), Extra Naan (Rs 80). Available at: none. Also called: plain paratha. Aloo Paratha - Breakfast category. Prepared-to-order breakfast item. Vegetarian candidate — verify recipe. Price Rs 500. Sizes: Regular / Standard Rs 500. Prep time 15 min. Ingredients: not listed. Add-ons: Extra Egg (Rs 100), Extra Naan (Rs 80). Available at: none. Also called: aloo paratha."
+  },
+  {
+    "_id": "FAM-pasta",
+    "dish_family": "pasta",
+    "item_ids": [
+      "MENU017",
+      "MENU018",
+      "MENU076",
+      "MENU077"
+    ],
+    "items": [
+      {
+        "_id": "MENU017",
+        "name": "Alfredo Pasta",
+        "base_price_pkr": 990,
+        "variants": [
+          {
+            "id": "VAR-MENU017-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 990,
+            "shown_in_menu": true,
+            "approved_for_orders": true
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD001",
+            "name": "Extra Cheese",
+            "price_pkr": 160,
+            "selectable": true
+          },
+          {
+            "id": "ADD008",
+            "name": "Extra Mozzarella",
+            "price_pkr": 190,
+            "selectable": true
+          },
+          {
+            "id": "ADD009",
+            "name": "Extra Mushrooms",
+            "price_pkr": 120,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "alfredo pasta",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": true,
+            "price_pkr": 990,
+            "snapshot_max_portions": 109.0
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": true,
+            "price_pkr": 990,
+            "snapshot_max_portions": 5.0
+          }
+        ],
+        "recipe": [
+          {
+            "ingredient_id": "ING045",
+            "ingredient": "Pasta dry",
+            "qty_per_portion": 0.18,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING016",
+            "ingredient": "Cream",
+            "qty_per_portion": 0.12,
+            "unit": "L"
+          },
+          {
+            "ingredient_id": "ING017",
+            "ingredient": "Mozzarella",
+            "qty_per_portion": 0.05,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING019",
+            "ingredient": "Butter",
+            "qty_per_portion": 0.018,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING030",
+            "ingredient": "Mushrooms",
+            "qty_per_portion": 0.06,
+            "unit": "kg"
+          }
+        ],
+        "prep_time_min": 25,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      },
+      {
+        "_id": "MENU018",
+        "name": "Arrabbiata Pasta",
+        "base_price_pkr": 850,
+        "variants": [
+          {
+            "id": "VAR-MENU018-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 850,
+            "shown_in_menu": true,
+            "approved_for_orders": true
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD001",
+            "name": "Extra Cheese",
+            "price_pkr": 160,
+            "selectable": true
+          },
+          {
+            "id": "ADD008",
+            "name": "Extra Mozzarella",
+            "price_pkr": 190,
+            "selectable": true
+          },
+          {
+            "id": "ADD009",
+            "name": "Extra Mushrooms",
+            "price_pkr": 120,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "arrabbiata pasta",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": true,
+            "price_pkr": 850,
+            "snapshot_max_portions": 109.0
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": true,
+            "price_pkr": 850,
+            "snapshot_max_portions": 11.0
+          }
+        ],
+        "recipe": [
+          {
+            "ingredient_id": "ING045",
+            "ingredient": "Pasta dry",
+            "qty_per_portion": 0.18,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING021",
+            "ingredient": "Tomatoes",
+            "qty_per_portion": 0.15,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING044",
+            "ingredient": "Pizza sauce",
+            "qty_per_portion": 0.08,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING034",
+            "ingredient": "Red chilli powder",
+            "qty_per_portion": 0.005,
+            "unit": "kg"
+          }
+        ],
+        "prep_time_min": 25,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      },
+      {
+        "_id": "MENU076",
+        "name": "Creamy Mushroom Pasta",
+        "base_price_pkr": 1300,
+        "variants": [
+          {
+            "id": "VAR-MENU076-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 1300,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD001",
+            "name": "Extra Cheese",
+            "price_pkr": 160,
+            "selectable": true
+          },
+          {
+            "id": "ADD008",
+            "name": "Extra Mozzarella",
+            "price_pkr": 190,
+            "selectable": true
+          },
+          {
+            "id": "ADD009",
+            "name": "Extra Mushrooms",
+            "price_pkr": 120,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "creamy mushroom pasta",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 1300,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 1300,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 25,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      },
+      {
+        "_id": "MENU077",
+        "name": "Chicken Penne Pasta",
+        "base_price_pkr": 1100,
+        "variants": [
+          {
+            "id": "VAR-MENU077-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 1100,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD001",
+            "name": "Extra Cheese",
+            "price_pkr": 160,
+            "selectable": true
+          },
+          {
+            "id": "ADD008",
+            "name": "Extra Mozzarella",
+            "price_pkr": 190,
+            "selectable": true
+          },
+          {
+            "id": "ADD009",
+            "name": "Extra Mushrooms",
+            "price_pkr": 120,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "chicken penne pasta",
+            "language": "English"
+          },
+          {
+            "phrase": "chikkan penne pasta",
+            "language": "Roman Urdu"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 1100,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 1100,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 25,
+        "dietary_hint": "Non-Vegetarian"
+      }
+    ],
+    "embedding_text": "Pasta dishes at Urban Tandoor. Alfredo Pasta - Pizza & Italian category. Kitchen-prepared Italian-inspired item. Vegetarian candidate — verify recipe. Price Rs 990. Sizes: Regular / Standard Rs 990. Prep time 25 min. Ingredients: Pasta dry, Cream, Mozzarella, Butter, Mushrooms. Add-ons: Extra Cheese (Rs 160), Extra Mozzarella (Rs 190), Extra Mushrooms (Rs 120), Drink Upgrade (Rs 130). Available at: PECHS, Gulshan-e-Iqbal. Also called: alfredo pasta. Arrabbiata Pasta - Pizza & Italian category. Kitchen-prepared Italian-inspired item. Vegetarian candidate — verify recipe. Price Rs 850. Sizes: Regular / Standard Rs 850. Prep time 25 min. Ingredients: Pasta dry, Tomatoes, Pizza sauce, Red chilli powder. Add-ons: Extra Cheese (Rs 160), Extra Mozzarella (Rs 190), Extra Mushrooms (Rs 120), Drink Upgrade (Rs 130). Available at: PECHS, Gulshan-e-Iqbal. Also called: arrabbiata pasta. Creamy Mushroom Pasta - Pizza & Italian category. Kitchen-prepared Italian-inspired item. Vegetarian candidate — verify recipe. Price Rs 1300. Sizes: Regular / Standard Rs 1300. Prep time 25 min. Ingredients: not listed. Add-ons: Extra Cheese (Rs 160), Extra Mozzarella (Rs 190), Extra Mushrooms (Rs 120), Drink Upgrade (Rs 130). Available at: none. Also called: creamy mushroom pasta. Chicken Penne Pasta - Pizza & Italian category. Kitchen-prepared Italian-inspired item. Non-Vegetarian. Price Rs 1100. Sizes: Regular / Standard Rs 1100. Prep time 25 min. Ingredients: not listed. Add-ons: Extra Cheese (Rs 160), Extra Mozzarella (Rs 190), Extra Mushrooms (Rs 120), Drink Upgrade (Rs 130). Available at: none. Also called: chicken penne pasta, chikkan penne pasta."
+  },
+  {
+    "_id": "FAM-pizza",
+    "dish_family": "pizza",
+    "item_ids": [
+      "MENU015",
+      "MENU071",
+      "MENU072",
+      "MENU073",
+      "MENU074",
+      "MENU075"
+    ],
+    "items": [
+      {
+        "_id": "MENU015",
+        "name": "Chicken Fajita Pizza",
+        "base_price_pkr": 1090,
+        "variants": [
+          {
+            "id": "VAR-MENU015-STD",
+            "name": "Small",
+            "price_pkr": 1090,
+            "shown_in_menu": true,
+            "approved_for_orders": true
+          },
+          {
+            "id": "VAR-MENU015-MED",
+            "name": "Medium",
+            "price_pkr": 1680,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          },
+          {
+            "id": "VAR-MENU015-LRG",
+            "name": "Large",
+            "price_pkr": 2450,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD001",
+            "name": "Extra Cheese",
+            "price_pkr": 160,
+            "selectable": true
+          },
+          {
+            "id": "ADD008",
+            "name": "Extra Mozzarella",
+            "price_pkr": 190,
+            "selectable": true
+          },
+          {
+            "id": "ADD009",
+            "name": "Extra Mushrooms",
+            "price_pkr": 120,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "chicken fajita pizza",
+            "language": "English"
+          },
+          {
+            "phrase": "chikkan fajita pizza",
+            "language": "Roman Urdu"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": true,
+            "price_pkr": 1090,
+            "snapshot_max_portions": 44.0
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": true,
+            "price_pkr": 1090,
+            "snapshot_max_portions": 5.0
+          }
+        ],
+        "recipe": [
+          {
+            "ingredient_id": "ING010",
+            "ingredient": "Pizza dough",
+            "qty_per_portion": 1.0,
+            "unit": "pcs"
+          },
+          {
+            "ingredient_id": "ING001",
+            "ingredient": "Chicken boneless",
+            "qty_per_portion": 0.16,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING017",
+            "ingredient": "Mozzarella",
+            "qty_per_portion": 0.18,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING024",
+            "ingredient": "Capsicum",
+            "qty_per_portion": 0.06,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING044",
+            "ingredient": "Pizza sauce",
+            "qty_per_portion": 0.07,
+            "unit": "kg"
+          }
+        ],
+        "prep_time_min": 25,
+        "dietary_hint": "Non-Vegetarian"
+      },
+      {
+        "_id": "MENU071",
+        "name": "BBQ Chicken Pizza",
+        "base_price_pkr": 1100,
+        "variants": [
+          {
+            "id": "VAR-MENU071-STD",
+            "name": "Small",
+            "price_pkr": 1100,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          },
+          {
+            "id": "VAR-MENU071-MED",
+            "name": "Medium",
+            "price_pkr": 1700,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          },
+          {
+            "id": "VAR-MENU071-LRG",
+            "name": "Large",
+            "price_pkr": 2470,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD001",
+            "name": "Extra Cheese",
+            "price_pkr": 160,
+            "selectable": true
+          },
+          {
+            "id": "ADD008",
+            "name": "Extra Mozzarella",
+            "price_pkr": 190,
+            "selectable": true
+          },
+          {
+            "id": "ADD009",
+            "name": "Extra Mushrooms",
+            "price_pkr": 120,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "bbq chicken pizza",
+            "language": "English"
+          },
+          {
+            "phrase": "bbq chikkan pizza",
+            "language": "Roman Urdu"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 1100,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 1100,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 25,
+        "dietary_hint": "Non-Vegetarian"
+      },
+      {
+        "_id": "MENU072",
+        "name": "Margherita Pizza",
+        "base_price_pkr": 1350,
+        "variants": [
+          {
+            "id": "VAR-MENU072-STD",
+            "name": "Small",
+            "price_pkr": 1350,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          },
+          {
+            "id": "VAR-MENU072-MED",
+            "name": "Medium",
+            "price_pkr": 2090,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          },
+          {
+            "id": "VAR-MENU072-LRG",
+            "name": "Large",
+            "price_pkr": 3030,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD001",
+            "name": "Extra Cheese",
+            "price_pkr": 160,
+            "selectable": true
+          },
+          {
+            "id": "ADD008",
+            "name": "Extra Mozzarella",
+            "price_pkr": 190,
+            "selectable": true
+          },
+          {
+            "id": "ADD009",
+            "name": "Extra Mushrooms",
+            "price_pkr": 120,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "margherita pizza",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 1350,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 1350,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 25,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      },
+      {
+        "_id": "MENU073",
+        "name": "Pepperoni-Style Pizza",
+        "base_price_pkr": 1050,
+        "variants": [
+          {
+            "id": "VAR-MENU073-STD",
+            "name": "Small",
+            "price_pkr": 1050,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          },
+          {
+            "id": "VAR-MENU073-MED",
+            "name": "Medium",
+            "price_pkr": 1620,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          },
+          {
+            "id": "VAR-MENU073-LRG",
+            "name": "Large",
+            "price_pkr": 2360,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD001",
+            "name": "Extra Cheese",
+            "price_pkr": 160,
+            "selectable": true
+          },
+          {
+            "id": "ADD008",
+            "name": "Extra Mozzarella",
+            "price_pkr": 190,
+            "selectable": true
+          },
+          {
+            "id": "ADD009",
+            "name": "Extra Mushrooms",
+            "price_pkr": 120,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "pepperoni-style pizza",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 1050,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 1050,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 25,
+        "dietary_hint": "Non-Vegetarian"
+      },
+      {
+        "_id": "MENU074",
+        "name": "Veggie Pizza",
+        "base_price_pkr": 1150,
+        "variants": [
+          {
+            "id": "VAR-MENU074-STD",
+            "name": "Small",
+            "price_pkr": 1150,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          },
+          {
+            "id": "VAR-MENU074-MED",
+            "name": "Medium",
+            "price_pkr": 1780,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          },
+          {
+            "id": "VAR-MENU074-LRG",
+            "name": "Large",
+            "price_pkr": 2580,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD001",
+            "name": "Extra Cheese",
+            "price_pkr": 160,
+            "selectable": true
+          },
+          {
+            "id": "ADD008",
+            "name": "Extra Mozzarella",
+            "price_pkr": 190,
+            "selectable": true
+          },
+          {
+            "id": "ADD009",
+            "name": "Extra Mushrooms",
+            "price_pkr": 120,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "veggie pizza",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 1150,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 1150,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 25,
+        "dietary_hint": "Ovo-Vegetarian"
+      },
+      {
+        "_id": "MENU075",
+        "name": "Four Cheese Pizza",
+        "base_price_pkr": 1250,
+        "variants": [
+          {
+            "id": "VAR-MENU075-STD",
+            "name": "Small",
+            "price_pkr": 1250,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          },
+          {
+            "id": "VAR-MENU075-MED",
+            "name": "Medium",
+            "price_pkr": 1930,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          },
+          {
+            "id": "VAR-MENU075-LRG",
+            "name": "Large",
+            "price_pkr": 2810,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD001",
+            "name": "Extra Cheese",
+            "price_pkr": 160,
+            "selectable": true
+          },
+          {
+            "id": "ADD008",
+            "name": "Extra Mozzarella",
+            "price_pkr": 190,
+            "selectable": true
+          },
+          {
+            "id": "ADD009",
+            "name": "Extra Mushrooms",
+            "price_pkr": 120,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "four cheese pizza",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 1250,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 1250,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 25,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      }
+    ],
+    "embedding_text": "Pizza dishes at Urban Tandoor. Chicken Fajita Pizza - Pizza & Italian category. Kitchen-prepared Italian-inspired item. Non-Vegetarian. Price Rs 1090. Sizes: Small Rs 1090; Medium Rs 1680; Large Rs 2450. Prep time 25 min. Ingredients: Pizza dough, Chicken boneless, Mozzarella, Capsicum, Pizza sauce. Add-ons: Extra Cheese (Rs 160), Extra Mozzarella (Rs 190), Extra Mushrooms (Rs 120), Drink Upgrade (Rs 130). Available at: PECHS, Gulshan-e-Iqbal. Also called: chicken fajita pizza, chikkan fajita pizza. BBQ Chicken Pizza - Pizza & Italian category. Kitchen-prepared Italian-inspired item. Non-Vegetarian. Price Rs 1100. Sizes: Small Rs 1100; Medium Rs 1700; Large Rs 2470. Prep time 25 min. Ingredients: not listed. Add-ons: Extra Cheese (Rs 160), Extra Mozzarella (Rs 190), Extra Mushrooms (Rs 120), Drink Upgrade (Rs 130). Available at: none. Also called: bbq chicken pizza, bbq chikkan pizza. Margherita Pizza - Pizza & Italian category. Kitchen-prepared Italian-inspired item. Vegetarian candidate — verify recipe. Price Rs 1350. Sizes: Small Rs 1350; Medium Rs 2090; Large Rs 3030. Prep time 25 min. Ingredients: not listed. Add-ons: Extra Cheese (Rs 160), Extra Mozzarella (Rs 190), Extra Mushrooms (Rs 120), Drink Upgrade (Rs 130). Available at: none. Also called: margherita pizza. Pepperoni-Style Pizza - Pizza & Italian category. Kitchen-prepared Italian-inspired item. Non-Vegetarian. Price Rs 1050. Sizes: Small Rs 1050; Medium Rs 1620; Large Rs 2360. Prep time 25 min. Ingredients: not listed. Add-ons: Extra Cheese (Rs 160), Extra Mozzarella (Rs 190), Extra Mushrooms (Rs 120), Drink Upgrade (Rs 130). Available at: none. Also called: pepperoni-style pizza. Veggie Pizza - Pizza & Italian category. Kitchen-prepared Italian-inspired item. Ovo-Vegetarian. Price Rs 1150. Sizes: Small Rs 1150; Medium Rs 1780; Large Rs 2580. Prep time 25 min. Ingredients: not listed. Add-ons: Extra Cheese (Rs 160), Extra Mozzarella (Rs 190), Extra Mushrooms (Rs 120), Drink Upgrade (Rs 130). Available at: none. Also called: veggie pizza. Four Cheese Pizza - Pizza & Italian category. Kitchen-prepared Italian-inspired item. Vegetarian candidate — verify recipe. Price Rs 1250. Sizes: Small Rs 1250; Medium Rs 1930; Large Rs 2810. Prep time 25 min. Ingredients: not listed. Add-ons: Extra Cheese (Rs 160), Extra Mozzarella (Rs 190), Extra Mushrooms (Rs 120), Drink Upgrade (Rs 130). Available at: none. Also called: four cheese pizza."
+  },
+  {
+    "_id": "FAM-pulao",
+    "dish_family": "pulao",
+    "item_ids": [
+      "MENU033",
+      "MENU034"
+    ],
+    "items": [
+      {
+        "_id": "MENU033",
+        "name": "Chicken Pulao",
+        "base_price_pkr": 1050,
+        "variants": [
+          {
+            "id": "VAR-MENU033-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 1050,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          },
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "chicken pulao",
+            "language": "English"
+          },
+          {
+            "phrase": "chikkan pulao",
+            "language": "Roman Urdu"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 1050,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 1050,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 35,
+        "dietary_hint": "Non-Vegetarian"
+      },
+      {
+        "_id": "MENU034",
+        "name": "Mutton Pulao",
+        "base_price_pkr": 1100,
+        "variants": [
+          {
+            "id": "VAR-MENU034-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 1100,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          },
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "mutton pulao",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 1100,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 1100,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 35,
+        "dietary_hint": "Non-Vegetarian"
+      }
+    ],
+    "embedding_text": "Pulao dishes at Urban Tandoor. Chicken Pulao - Pakistani category. Traditional Pakistani-style preparation. Non-Vegetarian. Price Rs 1050. Sizes: Regular / Standard Rs 1050. Prep time 35 min. Ingredients: not listed. Add-ons: Extra Naan (Rs 80), Extra Chicken (Rs 250). Available at: none. Also called: chicken pulao, chikkan pulao. Mutton Pulao - Pakistani category. Traditional Pakistani-style preparation. Non-Vegetarian. Price Rs 1100. Sizes: Regular / Standard Rs 1100. Prep time 35 min. Ingredients: not listed. Add-ons: Extra Naan (Rs 80), Extra Chicken (Rs 250). Available at: none. Also called: mutton pulao."
+  },
+  {
+    "_id": "FAM-sandwich",
+    "dish_family": "sandwich",
+    "item_ids": [
+      "MENU013",
+      "MENU068"
+    ],
+    "items": [
+      {
+        "_id": "MENU013",
+        "name": "Club Sandwich",
+        "base_price_pkr": 680,
+        "variants": [
+          {
+            "id": "VAR-MENU013-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 680,
+            "shown_in_menu": true,
+            "approved_for_orders": true
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD001",
+            "name": "Extra Cheese",
+            "price_pkr": 160,
+            "selectable": true
+          },
+          {
+            "id": "ADD002",
+            "name": "Extra Sauce",
+            "price_pkr": 70,
+            "selectable": true
+          },
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          },
+          {
+            "id": "ADD004",
+            "name": "Extra Beef Patty",
+            "price_pkr": 320,
+            "selectable": true
+          },
+          {
+            "id": "ADD005",
+            "name": "French Fries Side",
+            "price_pkr": 230,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "club sandwich",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": true,
+            "price_pkr": 680,
+            "snapshot_max_portions": 54.0
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": true,
+            "price_pkr": 680,
+            "snapshot_max_portions": 80.0
+          }
+        ],
+        "recipe": [
+          {
+            "ingredient_id": "ING012",
+            "ingredient": "Bread slices",
+            "qty_per_portion": 3.0,
+            "unit": "pcs"
+          },
+          {
+            "ingredient_id": "ING001",
+            "ingredient": "Chicken boneless",
+            "qty_per_portion": 0.1,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING014",
+            "ingredient": "Eggs",
+            "qty_per_portion": 1.0,
+            "unit": "pcs"
+          },
+          {
+            "ingredient_id": "ING040",
+            "ingredient": "Mayonnaise",
+            "qty_per_portion": 0.025,
+            "unit": "kg"
+          }
+        ],
+        "prep_time_min": 15,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      },
+      {
+        "_id": "MENU068",
+        "name": "Chicken Cheese Sandwich",
+        "base_price_pkr": 590,
+        "variants": [
+          {
+            "id": "VAR-MENU068-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 590,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD001",
+            "name": "Extra Cheese",
+            "price_pkr": 160,
+            "selectable": true
+          },
+          {
+            "id": "ADD002",
+            "name": "Extra Sauce",
+            "price_pkr": 70,
+            "selectable": true
+          },
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          },
+          {
+            "id": "ADD004",
+            "name": "Extra Beef Patty",
+            "price_pkr": 320,
+            "selectable": true
+          },
+          {
+            "id": "ADD005",
+            "name": "French Fries Side",
+            "price_pkr": 230,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "chicken cheese sandwich",
+            "language": "English"
+          },
+          {
+            "phrase": "chikkan cheese sandwich",
+            "language": "Roman Urdu"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 590,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 590,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 15,
+        "dietary_hint": "Non-Vegetarian"
+      }
+    ],
+    "embedding_text": "Sandwich dishes at Urban Tandoor. Club Sandwich - Fast Food category. Freshly assembled quick-service selection. Vegetarian candidate — verify recipe. Price Rs 680. Sizes: Regular / Standard Rs 680. Prep time 15 min. Ingredients: Bread slices, Chicken boneless, Eggs, Mayonnaise. Add-ons: Extra Cheese (Rs 160), Extra Sauce (Rs 70), Extra Chicken (Rs 250), Extra Beef Patty (Rs 320), French Fries Side (Rs 230), Drink Upgrade (Rs 130). Available at: PECHS, Gulshan-e-Iqbal. Also called: club sandwich. Chicken Cheese Sandwich - Fast Food category. Freshly assembled quick-service selection. Non-Vegetarian. Price Rs 590. Sizes: Regular / Standard Rs 590. Prep time 15 min. Ingredients: not listed. Add-ons: Extra Cheese (Rs 160), Extra Sauce (Rs 70), Extra Chicken (Rs 250), Extra Beef Patty (Rs 320), French Fries Side (Rs 230), Drink Upgrade (Rs 130). Available at: none. Also called: chicken cheese sandwich, chikkan cheese sandwich."
+  },
+  {
+    "_id": "FAM-shake",
+    "dish_family": "shake",
+    "item_ids": [
+      "MENU028",
+      "MENU108",
+      "MENU109",
+      "MENU110"
+    ],
+    "items": [
+      {
+        "_id": "MENU028",
+        "name": "Mango Shake",
+        "base_price_pkr": 490,
+        "variants": [
+          {
+            "id": "VAR-MENU028-STD",
+            "name": "Regular",
+            "price_pkr": 490,
+            "shown_in_menu": true,
+            "approved_for_orders": true
+          },
+          {
+            "id": "VAR-MENU028-LRG",
+            "name": "Large",
+            "price_pkr": 680,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [],
+        "aliases": [
+          {
+            "phrase": "mango shake",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": true,
+            "price_pkr": 490,
+            "snapshot_max_portions": 148.0
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": true,
+            "price_pkr": 490,
+            "snapshot_max_portions": 117.0
+          }
+        ],
+        "recipe": [
+          {
+            "ingredient_id": "ING015",
+            "ingredient": "Milk",
+            "qty_per_portion": 0.25,
+            "unit": "L"
+          },
+          {
+            "ingredient_id": "ING054",
+            "ingredient": "Mango pulp",
+            "qty_per_portion": 0.18,
+            "unit": "L"
+          },
+          {
+            "ingredient_id": "ING049",
+            "ingredient": "Sugar",
+            "qty_per_portion": 0.02,
+            "unit": "kg"
+          }
+        ],
+        "prep_time_min": 5,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      },
+      {
+        "_id": "MENU108",
+        "name": "Chocolate Shake",
+        "base_price_pkr": 500,
+        "variants": [
+          {
+            "id": "VAR-MENU108-STD",
+            "name": "Regular",
+            "price_pkr": 500,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          },
+          {
+            "id": "VAR-MENU108-LRG",
+            "name": "Large",
+            "price_pkr": 700,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [],
+        "aliases": [
+          {
+            "phrase": "chocolate shake",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 500,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 500,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 5,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      },
+      {
+        "_id": "MENU109",
+        "name": "Strawberry Shake",
+        "base_price_pkr": 200,
+        "variants": [
+          {
+            "id": "VAR-MENU109-STD",
+            "name": "Regular",
+            "price_pkr": 200,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          },
+          {
+            "id": "VAR-MENU109-LRG",
+            "name": "Large",
+            "price_pkr": 280,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [],
+        "aliases": [
+          {
+            "phrase": "strawberry shake",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 200,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 200,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 5,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      },
+      {
+        "_id": "MENU110",
+        "name": "Banana Shake",
+        "base_price_pkr": 300,
+        "variants": [
+          {
+            "id": "VAR-MENU110-STD",
+            "name": "Regular",
+            "price_pkr": 300,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          },
+          {
+            "id": "VAR-MENU110-LRG",
+            "name": "Large",
+            "price_pkr": 420,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [],
+        "aliases": [
+          {
+            "phrase": "banana shake",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 300,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 300,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 5,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      }
+    ],
+    "embedding_text": "Shake dishes at Urban Tandoor. Mango Shake - Beverages category. Fresh or packaged beverage. Vegetarian candidate — verify recipe. Price Rs 490. Sizes: Regular Rs 490; Large Rs 680. Prep time 5 min. Ingredients: Milk, Mango pulp, Sugar. Add-ons: none. Available at: PECHS, Gulshan-e-Iqbal. Also called: mango shake. Chocolate Shake - Beverages category. Fresh or packaged beverage. Vegetarian candidate — verify recipe. Price Rs 500. Sizes: Regular Rs 500; Large Rs 700. Prep time 5 min. Ingredients: not listed. Add-ons: none. Available at: none. Also called: chocolate shake. Strawberry Shake - Beverages category. Fresh or packaged beverage. Vegetarian candidate — verify recipe. Price Rs 200. Sizes: Regular Rs 200; Large Rs 280. Prep time 5 min. Ingredients: not listed. Add-ons: none. Available at: none. Also called: strawberry shake. Banana Shake - Beverages category. Fresh or packaged beverage. Vegetarian candidate — verify recipe. Price Rs 300. Sizes: Regular Rs 300; Large Rs 420. Prep time 5 min. Ingredients: not listed. Add-ons: none. Available at: none. Also called: banana shake."
+  },
+  {
+    "_id": "FAM-soup",
+    "dish_family": "soup",
+    "item_ids": [
+      "MENU085",
+      "MENU086"
+    ],
+    "items": [
+      {
+        "_id": "MENU085",
+        "name": "Hot and Sour Soup",
+        "base_price_pkr": 450,
+        "variants": [
+          {
+            "id": "VAR-MENU085-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 450,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "hot and sour soup",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 450,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 450,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 22,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      },
+      {
+        "_id": "MENU086",
+        "name": "Chicken Corn Soup",
+        "base_price_pkr": 430,
+        "variants": [
+          {
+            "id": "VAR-MENU086-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 430,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "chicken corn soup",
+            "language": "English"
+          },
+          {
+            "phrase": "chikkan corn soup",
+            "language": "Roman Urdu"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 430,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 430,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 22,
+        "dietary_hint": "Non-Vegetarian"
+      }
+    ],
+    "embedding_text": "Soup dishes at Urban Tandoor. Hot and Sour Soup - Chinese & Continental category. Freshly prepared Asian/continental selection. Vegetarian candidate — verify recipe. Price Rs 450. Sizes: Regular / Standard Rs 450. Prep time 22 min. Ingredients: not listed. Add-ons: Extra Chicken (Rs 250), Drink Upgrade (Rs 130). Available at: none. Also called: hot and sour soup. Chicken Corn Soup - Chinese & Continental category. Freshly prepared Asian/continental selection. Non-Vegetarian. Price Rs 430. Sizes: Regular / Standard Rs 430. Prep time 22 min. Ingredients: not listed. Add-ons: Extra Chicken (Rs 250), Drink Upgrade (Rs 130). Available at: none. Also called: chicken corn soup, chikkan corn soup."
+  },
+  {
+    "_id": "FAM-tea",
+    "dish_family": "tea",
+    "item_ids": [
+      "MENU022",
+      "MENU030"
+    ],
+    "items": [
+      {
+        "_id": "MENU022",
+        "name": "Grilled Chicken Steak",
+        "base_price_pkr": 1490,
+        "variants": [
+          {
+            "id": "VAR-MENU022-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 1490,
+            "shown_in_menu": true,
+            "approved_for_orders": true
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "grilled chicken steak",
+            "language": "English"
+          },
+          {
+            "phrase": "grilled chikkan steak",
+            "language": "Roman Urdu"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": true,
+            "price_pkr": 1490,
+            "snapshot_max_portions": 97.0
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": true,
+            "price_pkr": 1490,
+            "snapshot_max_portions": 4.0
+          }
+        ],
+        "recipe": [
+          {
+            "ingredient_id": "ING001",
+            "ingredient": "Chicken boneless",
+            "qty_per_portion": 0.28,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING023",
+            "ingredient": "Potatoes",
+            "qty_per_portion": 0.2,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING030",
+            "ingredient": "Mushrooms",
+            "qty_per_portion": 0.07,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING016",
+            "ingredient": "Cream",
+            "qty_per_portion": 0.05,
+            "unit": "L"
+          }
+        ],
+        "prep_time_min": 22,
+        "dietary_hint": "Non-Vegetarian"
+      },
+      {
+        "_id": "MENU030",
+        "name": "Tea",
+        "base_price_pkr": 160,
+        "variants": [
+          {
+            "id": "VAR-MENU030-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 160,
+            "shown_in_menu": true,
+            "approved_for_orders": true
+          }
+        ],
+        "addons": [],
+        "aliases": [
+          {
+            "phrase": "tea",
+            "language": "English"
+          },
+          {
+            "phrase": "chai",
+            "language": "Roman Urdu"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": true,
+            "price_pkr": 160,
+            "snapshot_max_portions": 368.0
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": true,
+            "price_pkr": 160,
+            "snapshot_max_portions": 444.0
+          }
+        ],
+        "recipe": [
+          {
+            "ingredient_id": "ING015",
+            "ingredient": "Milk",
+            "qty_per_portion": 0.15,
+            "unit": "L"
+          },
+          {
+            "ingredient_id": "ING050",
+            "ingredient": "Tea leaves",
+            "qty_per_portion": 0.008,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING049",
+            "ingredient": "Sugar",
+            "qty_per_portion": 0.015,
+            "unit": "kg"
+          }
+        ],
+        "prep_time_min": 5,
+        "dietary_hint": "Vegetarian candidate — verify recipe"
+      }
+    ],
+    "embedding_text": "Tea dishes at Urban Tandoor. Grilled Chicken Steak - Chinese & Continental category. Freshly prepared Asian/continental selection. Non-Vegetarian. Price Rs 1490. Sizes: Regular / Standard Rs 1490. Prep time 22 min. Ingredients: Chicken boneless, Potatoes, Mushrooms, Cream. Add-ons: Extra Chicken (Rs 250), Drink Upgrade (Rs 130). Available at: PECHS, Gulshan-e-Iqbal. Also called: grilled chicken steak, grilled chikkan steak. Tea - Beverages category. Fresh or packaged beverage. Vegetarian candidate — verify recipe. Price Rs 160. Sizes: Regular / Standard Rs 160. Prep time 5 min. Ingredients: Milk, Tea leaves, Sugar. Add-ons: none. Available at: PECHS, Gulshan-e-Iqbal. Also called: tea, chai."
+  },
+  {
+    "_id": "FAM-tikka",
+    "dish_family": "tikka",
+    "item_ids": [
+      "MENU007",
+      "MENU016",
+      "MENU057"
+    ],
+    "items": [
+      {
+        "_id": "MENU007",
+        "name": "Chicken Tikka",
+        "base_price_pkr": 590,
+        "variants": [
+          {
+            "id": "VAR-MENU007-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 590,
+            "shown_in_menu": true,
+            "approved_for_orders": true
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD002",
+            "name": "Extra Sauce",
+            "price_pkr": 70,
+            "selectable": true
+          },
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "chicken tikka",
+            "language": "English"
+          },
+          {
+            "phrase": "chikkan tikka",
+            "language": "Roman Urdu"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": true,
+            "price_pkr": 590,
+            "snapshot_max_portions": 93.0
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": true,
+            "price_pkr": 590,
+            "snapshot_max_portions": 164.0
+          }
+        ],
+        "recipe": [
+          {
+            "ingredient_id": "ING002",
+            "ingredient": "Chicken bone-in",
+            "qty_per_portion": 0.38,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING020",
+            "ingredient": "Yogurt",
+            "qty_per_portion": 0.06,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING039",
+            "ingredient": "BBQ marinade",
+            "qty_per_portion": 0.07,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING031",
+            "ingredient": "Cooking oil",
+            "qty_per_portion": 0.015,
+            "unit": "L"
+          }
+        ],
+        "prep_time_min": 28,
+        "dietary_hint": "Non-Vegetarian"
+      },
+      {
+        "_id": "MENU016",
+        "name": "Chicken Tikka Pizza",
+        "base_price_pkr": 1090,
+        "variants": [
+          {
+            "id": "VAR-MENU016-STD",
+            "name": "Small",
+            "price_pkr": 1090,
+            "shown_in_menu": true,
+            "approved_for_orders": true
+          },
+          {
+            "id": "VAR-MENU016-MED",
+            "name": "Medium",
+            "price_pkr": 1680,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          },
+          {
+            "id": "VAR-MENU016-LRG",
+            "name": "Large",
+            "price_pkr": 2450,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD001",
+            "name": "Extra Cheese",
+            "price_pkr": 160,
+            "selectable": true
+          },
+          {
+            "id": "ADD008",
+            "name": "Extra Mozzarella",
+            "price_pkr": 190,
+            "selectable": true
+          },
+          {
+            "id": "ADD009",
+            "name": "Extra Mushrooms",
+            "price_pkr": 120,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "chicken tikka pizza",
+            "language": "English"
+          },
+          {
+            "phrase": "chikkan tikka pizza",
+            "language": "Roman Urdu"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": true,
+            "price_pkr": 1090,
+            "snapshot_max_portions": 44.0
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": true,
+            "price_pkr": 1090,
+            "snapshot_max_portions": 5.0
+          }
+        ],
+        "recipe": [
+          {
+            "ingredient_id": "ING010",
+            "ingredient": "Pizza dough",
+            "qty_per_portion": 1.0,
+            "unit": "pcs"
+          },
+          {
+            "ingredient_id": "ING001",
+            "ingredient": "Chicken boneless",
+            "qty_per_portion": 0.16,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING017",
+            "ingredient": "Mozzarella",
+            "qty_per_portion": 0.18,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING039",
+            "ingredient": "BBQ marinade",
+            "qty_per_portion": 0.035,
+            "unit": "kg"
+          },
+          {
+            "ingredient_id": "ING044",
+            "ingredient": "Pizza sauce",
+            "qty_per_portion": 0.07,
+            "unit": "kg"
+          }
+        ],
+        "prep_time_min": 25,
+        "dietary_hint": "Non-Vegetarian"
+      },
+      {
+        "_id": "MENU057",
+        "name": "Fish Tikka",
+        "base_price_pkr": 950,
+        "variants": [
+          {
+            "id": "VAR-MENU057-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 950,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD002",
+            "name": "Extra Sauce",
+            "price_pkr": 70,
+            "selectable": true
+          },
+          {
+            "id": "ADD006",
+            "name": "Extra Naan",
+            "price_pkr": 80,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "fish tikka",
+            "language": "English"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 950,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 950,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 28,
+        "dietary_hint": "Non-Vegetarian"
+      }
+    ],
+    "embedding_text": "Tikka dishes at Urban Tandoor. Chicken Tikka - BBQ category. Marinated and grilled specialty. Non-Vegetarian. Price Rs 590. Sizes: Regular / Standard Rs 590. Prep time 28 min. Ingredients: Chicken bone-in, Yogurt, BBQ marinade, Cooking oil. Add-ons: Extra Sauce (Rs 70), Extra Naan (Rs 80), Drink Upgrade (Rs 130). Available at: PECHS, Gulshan-e-Iqbal. Also called: chicken tikka, chikkan tikka. Chicken Tikka Pizza - Pizza & Italian category. Kitchen-prepared Italian-inspired item. Non-Vegetarian. Price Rs 1090. Sizes: Small Rs 1090; Medium Rs 1680; Large Rs 2450. Prep time 25 min. Ingredients: Pizza dough, Chicken boneless, Mozzarella, BBQ marinade, Pizza sauce. Add-ons: Extra Cheese (Rs 160), Extra Mozzarella (Rs 190), Extra Mushrooms (Rs 120), Drink Upgrade (Rs 130). Available at: PECHS, Gulshan-e-Iqbal. Also called: chicken tikka pizza, chikkan tikka pizza. Fish Tikka - BBQ category. Marinated and grilled specialty. Non-Vegetarian. Price Rs 950. Sizes: Regular / Standard Rs 950. Prep time 28 min. Ingredients: not listed. Add-ons: Extra Sauce (Rs 70), Extra Naan (Rs 80), Drink Upgrade (Rs 130). Available at: none. Also called: fish tikka."
+  },
+  {
+    "_id": "FAM-wrap",
+    "dish_family": "wrap",
+    "item_ids": [
+      "MENU063",
+      "MENU064"
+    ],
+    "items": [
+      {
+        "_id": "MENU063",
+        "name": "Chicken Wrap",
+        "base_price_pkr": 690,
+        "variants": [
+          {
+            "id": "VAR-MENU063-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 690,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD001",
+            "name": "Extra Cheese",
+            "price_pkr": 160,
+            "selectable": true
+          },
+          {
+            "id": "ADD002",
+            "name": "Extra Sauce",
+            "price_pkr": 70,
+            "selectable": true
+          },
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          },
+          {
+            "id": "ADD004",
+            "name": "Extra Beef Patty",
+            "price_pkr": 320,
+            "selectable": true
+          },
+          {
+            "id": "ADD005",
+            "name": "French Fries Side",
+            "price_pkr": 230,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "chicken wrap",
+            "language": "English"
+          },
+          {
+            "phrase": "chikkan wrap",
+            "language": "Roman Urdu"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 690,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 690,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 15,
+        "dietary_hint": "Non-Vegetarian"
+      },
+      {
+        "_id": "MENU064",
+        "name": "Crispy Chicken Wrap",
+        "base_price_pkr": 740,
+        "variants": [
+          {
+            "id": "VAR-MENU064-STD",
+            "name": "Regular / Standard",
+            "price_pkr": 740,
+            "shown_in_menu": true,
+            "approved_for_orders": false
+          }
+        ],
+        "addons": [
+          {
+            "id": "ADD001",
+            "name": "Extra Cheese",
+            "price_pkr": 160,
+            "selectable": true
+          },
+          {
+            "id": "ADD002",
+            "name": "Extra Sauce",
+            "price_pkr": 70,
+            "selectable": true
+          },
+          {
+            "id": "ADD003",
+            "name": "Extra Chicken",
+            "price_pkr": 250,
+            "selectable": true
+          },
+          {
+            "id": "ADD004",
+            "name": "Extra Beef Patty",
+            "price_pkr": 320,
+            "selectable": true
+          },
+          {
+            "id": "ADD005",
+            "name": "French Fries Side",
+            "price_pkr": 230,
+            "selectable": true
+          },
+          {
+            "id": "ADD010",
+            "name": "Drink Upgrade",
+            "price_pkr": 130,
+            "selectable": false
+          }
+        ],
+        "aliases": [
+          {
+            "phrase": "crispy chicken wrap",
+            "language": "English"
+          },
+          {
+            "phrase": "crispy chikkan wrap",
+            "language": "Roman Urdu"
+          }
+        ],
+        "branches": [
+          {
+            "branch_id": "UTG-KHI-001",
+            "branch_name": "PECHS",
+            "enabled": false,
+            "price_pkr": 740,
+            "snapshot_max_portions": null
+          },
+          {
+            "branch_id": "UTG-KHI-002",
+            "branch_name": "Gulshan-e-Iqbal",
+            "enabled": false,
+            "price_pkr": 740,
+            "snapshot_max_portions": null
+          }
+        ],
+        "recipe": [],
+        "prep_time_min": 15,
+        "dietary_hint": "Non-Vegetarian"
+      }
+    ],
+    "embedding_text": "Wrap dishes at Urban Tandoor. Chicken Wrap - Fast Food category. Freshly assembled quick-service selection. Non-Vegetarian. Price Rs 690. Sizes: Regular / Standard Rs 690. Prep time 15 min. Ingredients: not listed. Add-ons: Extra Cheese (Rs 160), Extra Sauce (Rs 70), Extra Chicken (Rs 250), Extra Beef Patty (Rs 320), French Fries Side (Rs 230), Drink Upgrade (Rs 130). Available at: none. Also called: chicken wrap, chikkan wrap. Crispy Chicken Wrap - Fast Food category. Freshly assembled quick-service selection. Non-Vegetarian. Price Rs 740. Sizes: Regular / Standard Rs 740. Prep time 15 min. Ingredients: not listed. Add-ons: Extra Cheese (Rs 160), Extra Sauce (Rs 70), Extra Chicken (Rs 250), Extra Beef Patty (Rs 320), French Fries Side (Rs 230), Drink Upgrade (Rs 130). Available at: none. Also called: crispy chicken wrap, crispy chikkan wrap."
+  }
+]
