@@ -1,5 +1,7 @@
 import os
 import json
+import time
+import random
 import traceback
 from typing import Optional
 
@@ -15,13 +17,18 @@ from pydantic import BaseModel
 from pymongo import MongoClient
 from sentence_transformers import SentenceTransformer
 from google import genai
-from google.genai import types
+from google.genai import types, errors
 
 app = FastAPI(title="Urban Tandoor Menu API")
 db = MongoClient("mongodb://localhost:27017")["urban_tandoor"]
 model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
 NO_EMB = {"embedding": 0, "embedding_text": 0}
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
+# Optional: a second model to try if the main one is overloaded (503).
+# Set GEMINI_FALLBACK_MODEL in your .env to enable it.
+FALLBACK_MODEL = os.getenv("GEMINI_FALLBACK_MODEL", "")
+MAX_ATTEMPTS_PER_MODEL = 4   # waits ~1s, 2s, 4s, 8s between tries
 
 
 # ---------- request models ----------
@@ -234,11 +241,11 @@ def delete_item(menu_id: str):
 
 
 # ================= CHATBOT (Gemini + tools that read the database) =================
-CHAT_SYSTEM = """You are the friendly menu assistant for Urban Tandoor & Grill (branches: PECHS and Gulshan-e-Iqbal, Karachi).
+CHAT_SYSTEM = """You are the friendly menu assistant for Urban Tandoor & Grill (branches: Clifton and DHA, Karachi).
 - ALWAYS use the tools to look up the menu before answering a menu question. Never answer prices, dishes or ingredients from memory.
 - If the tools do not return the answer, say you are not sure and suggest asking the staff. Never invent items.
 - Prices are in PKR (Rs).
-- Reply in the customer's language (English, Urdu or Roman Urdu). Keep answers short and clear.
+- Reply in the customer's language (English). Keep answers short and clear.
 - Allergen info is NOT verified: never say a dish is safe for an allergy; tell them to confirm with staff.
 - Stock numbers are an old snapshot: do not promise availability.
 - Ordering is not available in this chat yet."""
@@ -305,20 +312,41 @@ def chat(body: ChatRequest):
     contents = [types.Content(role="user" if m.role == "user" else "model",
                               parts=[types.Part(text=m.content)]) for m in msgs]
 
-    try:
-        client = genai.Client(api_key=api_key)
-        resp = client.models.generate_content(
-            model=GEMINI_MODEL,
-            contents=contents,
-            config=types.GenerateContentConfig(
-                system_instruction=CHAT_SYSTEM,
-                tools=[search_menu, get_dish_family, get_menu_item, list_category],
-                max_output_tokens=800,
-            ),
-        )
-        answer = resp.text or "Sorry, I could not find an answer. Please ask the staff."
-    except Exception as e:
-        traceback.print_exc()
-        raise HTTPException(500, f"Gemini error: {e}")
+    client = genai.Client(api_key=api_key)
+    config = types.GenerateContentConfig(
+        system_instruction=CHAT_SYSTEM,
+        tools=[search_menu, get_dish_family, get_menu_item, list_category],
+        max_output_tokens=800,
+    )
 
+    # Try the main model first, then the optional fallback model.
+    # Each model is retried with exponential backoff when Google says
+    # "503 UNAVAILABLE" (high demand) or another temporary server error.
+    models_to_try = [GEMINI_MODEL] + ([FALLBACK_MODEL] if FALLBACK_MODEL else [])
+    resp = None
+
+    for model_name in models_to_try:
+        for attempt in range(MAX_ATTEMPTS_PER_MODEL):
+            try:
+                tools_used.clear()  # a retry re-runs the tools, so don't log them twice
+                resp = client.models.generate_content(
+                    model=model_name, contents=contents, config=config
+                )
+                break
+            except errors.ServerError:      # 500 / 503 / 504: temporary, retry
+                traceback.print_exc()
+                if attempt < MAX_ATTEMPTS_PER_MODEL - 1:
+                    time.sleep((2 ** attempt) + random.random())
+            except Exception as e:          # anything else: don't retry
+                traceback.print_exc()
+                raise HTTPException(500, f"Gemini error: {e}")
+        if resp is not None:
+            break
+
+    if resp is None:
+        raise HTTPException(
+            503, "The assistant is busy right now. Please try again in a moment."
+        )
+
+    answer = resp.text or "Sorry, I could not find an answer. Please ask the staff."
     return {"answer": answer, "tools_used": tools_used}
